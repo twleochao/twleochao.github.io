@@ -1,3 +1,3 @@
-# Personal portflio
+# Personal portfolio 
 
-Cloned from [Minimal Mistakes theme](https://github.com/mmistakes/mm-github-pages-starter/generate) 
+Cloned from [Minimal Mistakes theme](https://github.com/mmistakes/mm-github-pages-starter) 
