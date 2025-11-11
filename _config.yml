@@ -64,8 +64,8 @@ author:
       icon: "fab fa-fw fa-envelope-square"
       url: "mailto:leo.yt.chao@gmail.com"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-ilnkedin"
-      url: "https://linked.com/in/leoytchao"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/leoytchao"
     - label: "Github"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/twleochao"
@@ -73,8 +73,8 @@ author:
 footer:
   links:
     - label: "Linkedin"
-      icon: "fab fa-fw fa-ilnkedin"
-      url: "https://linked.com/in/leoytchao"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/leoytchao"
     - label: "Github"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/twleochao"
