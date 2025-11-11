@@ -58,34 +58,31 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Leo (Yi-Ting) Chao"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "CS & AI @ UCI, Researcher @ ARACLA Lab, Ex-SWE @ Acer, <br> Research Interests in ML Systems, LLM evaluation & tooling, HCI, and co-working systems."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
+    - label: "Email"
+      icon: "fab fa-fw fa-envelope-square"
+      url: "mailto:leo.yt.chao@gmail.com"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-ilnkedin"
+      url: "https://linked.com/in/leoytchao"
+    - label: "Github"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/twleochao"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-ilnkedin"
+      url: "https://linked.com/in/leoytchao"
+    - label: "Github"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/twleochao"
+    - label: "Email"
+      icon: "fab fa-fw fa-envelope-square"
+      url: "mailto:leo.yt.chao@gmail.com"
 
 defaults:
   # _posts
