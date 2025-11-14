@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Personal portfolio for Leo Chao. 
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: dirt
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -61,7 +61,7 @@ author:
   bio    : "CS & AI @ UCI<br>Researcher @ ARACLA Lab<br>Ex-SWE @ Acer<br>Research Interests: ML Systems, LLM evaluation & tooling, HCI, and co-working systems."
   links:
     - label: "Email"
-      icon: "fab fa-fw fa-envelope-square"
+      icon: "fab fa-fw fa-paper-plane"
       url: "mailto:leo.yt.chao@gmail.com"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
@@ -79,7 +79,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/twleochao"
     - label: "Email"
-      icon: "fab fa-fw fa-envelope-square"
+      icon: "fab fa-fw fa-paper-plane"
       url: "mailto:leo.yt.chao@gmail.com"
 
 defaults:
