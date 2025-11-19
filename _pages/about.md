@@ -1,8 +1,13 @@
 ---
 permalink: /about/
-title: "About"
+title: "About Me"
+layout: single
+author_profile: true
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Hi! I'm Leo, currently a 3rd year (senior standing) at University of California, Irvine, studying Computer Science with a specialization in Intelligent Systems. 
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+My research interests are Machine Learning systems, Large Language Models evaluation & tooling, assistive & real-time systems, and Human-Computer-Interaction for learning.
+In particular, I'm very passionate about developing co-working systems that utilize AI for real-world appliactions.
+
+Previously, I was a SWE intern at Acer, where I worked on developing a Multi-Agent-System for automating the Sofware Development Life Cycle. Learn more about that and my other projects from the homepage.
