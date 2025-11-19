@@ -1,38 +1,31 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: splash 
+layout: splash
 permalink: /
 hidden: true
-title: "Leo (Yi-Ting) Chao"
-header:
-  overlay_color: "#333" # Dark header background
-  text_color: "#fff"
-excerpt: "Researcher in Controllable AI, HCI, and Co-working Systems."
+title: "Portfolio" 
 feature_row:
-  - image_path: /assets/images/chat-bloom-diagram.png
-    alt: "Chat-Bloom"
+  - image_path: /assets/images/bio-photo.png
+    alt: "ARCALA Lab"
     title: "ARCALA Lab"
     excerpt: "Framework measuring cognitive offloading in AI tutors."
     url: "/projects/arcala/"
     btn_label: "View Project"
     btn_class: "btn--primary"
-  - image_path: /assets/images/acer-architecture.png
-    alt: "Acer SDLC"
-    title: "Acer SDLC Agent"
+  - image_path: /assets/images/bio-photo.png
+    alt: "MAS SDLC"
+    title: "MAS SDLC Agent"
     excerpt: "Multi-agent system reducing dev time by 35%."
-    url: "/projects/massdlc/"
+    url: "/projects/acer/"
     btn_label: "View Project"
     btn_class: "btn--primary"
-  - image_path: /assets/images/headsup-demo.gif
+  - image_path: /assets/images/test.gif
     alt: "HeadsUp"
     title: "HeadsUp HUD"
     excerpt: "A <20ms latency poker HUD using Selenium and XGBoost."
     url: "/projects/headsup/"
     btn_label: "View Project"
     btn_class: "btn--primary"
-  - image_path: /assets/images/pdfim-demo.gif
+  - image_path: /assets/images/test.gif
     alt: "PDFim"
     title: "PDFim"
     excerpt: "Vim-like terminal PDF viewer with adaptive layout."
@@ -40,5 +33,25 @@ feature_row:
     btn_label: "View Project"
     btn_class: "btn--primary"
 ---
+
+<div style="display: flex; align-items: center; gap: 40px; margin-bottom: 60px; flex-wrap: wrap;">
+  
+  <img src="/assets/images/bio-photo.jpg" alt="Leo Chao" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+  
+  <div style="flex: 1; min-width: 300px;">
+    <h1 style="margin-bottom: 10px; font-size: 2.5em;">Leo (Yi-Ting) Chao</h1>
+    <p style="font-size: 1.2em; line-height: 1.6; color: #bbb;">
+      Researcher in <strong>Controllable AI</strong>, <strong>HCI</strong>, and <strong>Co-working Systems</strong>.<br>
+      I build tools that are truly assistive under real use cases.
+    </p>
+    <div style="margin-top: 20px;">
+      <a href="https://github.com/twleochao" style="margin-right: 15px; font-size: 1.5em; color: #bbb;"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/leoytchao" style="margin-right: 15px; font-size: 1.5em; color: #bbb;"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:ychao13@uci.edu" style="font-size: 1.5em; color: #bbb;"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+</div>
+
+<h2 style="border-bottom: 1px solid #444; padding-bottom: 10px; margin-bottom: 30px;">Selected Projects</h2>
 
 {% include feature_row %}

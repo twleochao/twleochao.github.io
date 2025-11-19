@@ -60,7 +60,7 @@ author:
   bio    : "CS & AI @ UCI<br>Researcher @ ARACLA Lab<br>Ex-SWE @ Acer<br>Research Interests: ML Systems, LLM evaluation & tooling, HCI, and co-working systems."
   links:
     - label: "Email"
-      icon: "fab fa-fw fa-paper-plane"
+      icon: "fab fa-fw fa-envelope"
       url: "mailto:leo.yt.chao@gmail.com"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
@@ -78,7 +78,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/twleochao"
     - label: "Email"
-      icon: "fab fa-fw fa-paper-plane"
+      icon: "fab fa-fw fa-envelope"
       url: "mailto:leo.yt.chao@gmail.com"
 
 defaults:
