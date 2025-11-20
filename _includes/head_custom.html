@@ -1,27 +1,40 @@
 <style>
-  .masthead, .masthead .inner-wrap {
-    background-color: #252a34 !important; 
-    position: relative;
-    z-index: 999 !important;
+  html {
+    background-color: #252a34 !important;
   }
-  
+  body {
+    background-color: transparent !important;
+  }
+  #main {
+    background-color: transparent !important;
+  }
+
   .masthead {
+    background-color: #252a34 !important; 
     border-bottom: 1px solid #333;
+    position: relative;
+    z-index: 20;
+  }
+  .page__footer {
+    background-color: #252a34 !important;
+    position: relative;
+    z-index: 20;
   }
 
   .masthead__site-title,
   .site-title,
   .masthead__menu-item--brand {
     display: none !important;
-    visibility: hidden !important;
   }
 
   a, a:visited { color: #48c774; }
   a:hover, a:focus { color: #3da863 !important; }
   
-  .greedy-nav a:hover {
-    color: #48c774 !important;
+  .greedy-nav a,
+  .greedy-nav .visible-links a {
+    color: #fff !important;
   }
+  .greedy-nav a:hover,
   .greedy-nav .visible-links a:hover {
     color: #48c774 !important;
   }
