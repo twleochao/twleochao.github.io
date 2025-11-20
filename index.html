@@ -6,27 +6,28 @@ hidden: true
 
 <canvas id="craneCanvas" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none;"></canvas>
 
-<div style="position: relative; z-index: 2; display: flex; align-items: center; justify-content: center; gap: 40px; margin: 60px 0 60px 0; flex-wrap: wrap;">
+<div style="position: relative; z-index: 2; display: flex; align-items: center; justify-content: center; gap: 50px; margin: 8vh 0 60px 0; flex-wrap: wrap;">
   
-  <img src="/assets/images/bio-photo.jpg" alt="Leo Chao" style="width: 160px; height: 160px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 20px rgba(0,0,0,0.4); border: 2px solid rgba(255,255,255,0.1);">
+  <img src="/assets/images/bio-photo.jpg" alt="Leo Chao" style="width: 160px; height: 160px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 20px rgba(0,0,0,0.4); border: 2px solid rgba(72, 199, 116, 0.3);">
   
-  <div style="flex: 1; min-width: 300px; max-width: 550px;">
+  <div style="flex: 1; min-width: 300px; max-width: 650px;">
     
-    <h1 style="margin-bottom: 10px; font-size: 2.2em; font-weight: 700; letter-spacing: -0.5px;">Leo (Yi-Ting) Chao</h1>
+    <h1 style="margin-bottom: 15px; font-size: 2.5em; font-weight: 700; letter-spacing: -0.5px;">Leo (Yi-Ting) Chao</h1>
     
-    <div style="font-size: 1.1em; line-height: 1.6; color: #bbb; margin-bottom: 20px; border-left: 2px solid #48c774; padding-left: 15px;">
+    <div style="font-size: 1.1em; line-height: 1.6; color: #bbb; margin-bottom: 25px; border-left: 3px solid #48c774; padding-left: 15px;">
       CS & AI @ UCI<br>
       Researcher @ ARACLA Lab<br>
       Ex-SWE @ Acer
     </div>
 
-    <div style="height: 50px; margin-bottom: 20px;"> <span id="typewriter" style="font-family: 'Courier New', monospace; font-size: 1.05em; color: #48c774;"></span><span class="cursor">|</span>
+    <div style="height: 50px; margin-bottom: 30px;"> 
+      <span id="typewriter" style="font-family: 'Courier New', monospace; font-size: 1.1em; color: #48c774;"></span><span class="cursor">|</span>
     </div>
     
-    <div style="margin-bottom: 25px;">
-      <a href="https://github.com/twleochao" style="margin-right: 15px; font-size: 1.4em; color: #bbb; transition: color 0.2s;"><i class="fab fa-github"></i></a>
-      <a href="https://linkedin.com/in/leoytchao" style="margin-right: 15px; font-size: 1.4em; color: #bbb; transition: color 0.2s;"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:ychao13@uci.edu" style="font-size: 1.4em; color: #bbb; transition: color 0.2s;"><i class="fas fa-envelope"></i></a>
+    <div style="margin-bottom: 35px;">
+      <a href="https://github.com/twleochao" style="margin-right: 18px; font-size: 1.5em; color: #bbb; transition: color 0.2s;"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/leoytchao" style="margin-right: 18px; font-size: 1.5em; color: #bbb; transition: color 0.2s;"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:ychao13@uci.edu" style="font-size: 1.5em; color: #bbb; transition: color 0.2s;"><i class="fas fa-envelope"></i></a>
     </div>
     
     <div>
@@ -36,7 +37,7 @@ hidden: true
   </div>
 </div>
 
-<div style="position: relative; z-index: 2; max-width: 800px; margin: 0 auto 80px auto; padding: 0 20px;">
+<div style="position: relative; z-index: 2; max-width: 800px; margin: 0 auto 40px auto; padding: 0 20px;">
   <h3 style="border-bottom: 1px solid #444; padding-bottom: 10px; margin-bottom: 20px; color: #888; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9em;">Latest Updates</h3>
   
   <ul style="list-style: none; padding: 0; font-size: 1em; line-height: 2.2;">
@@ -48,10 +49,15 @@ hidden: true
   </ul>
 </div>
 
+<div style="text-align: center; color: #555; font-size: 0.8em; margin-bottom: 40px;">
+  ( Hover to Guide • Click to Spawn )
+</div>
+
 <script src="/assets/js/cranes.js"></script>
 
 <script>
-  const text = "Building tools that are truly assistive under real use cases.";
+  // Select the one-liner you prefer here:
+  const text = "Engineering agency into intelligent systems."; 
   const speed = 40; 
   let i = 0;
   
@@ -69,6 +75,13 @@ hidden: true
 </script>
 
 <style>
+  .btn--primary {
+    background-color: #48c774 !important;
+  }
+  .btn--primary:hover {
+    background-color: #3da863 !important;
+  }
+
   .cursor {
     font-weight: bold;
     color: #48c774;
