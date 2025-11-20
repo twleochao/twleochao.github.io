@@ -44,24 +44,30 @@ author_profile: true
   }
 </style>
 
-I'm Leo, currently a 3rd year (senior standing) at University of California, Irvine studying Computer Science with a specialization in Intelligent Systems. 
+I'm Leo, a senior at **University of California, Irvine** majoring in Computer Science with a specialization in Intelligent Systems. 
 
-My research interests and work lies at the intersection between Artificial Intelligence and human control.  Specifically, I'm passionate about understanding and bridging the gap between powerful generative tools and real-world usability.
+My research interests and work lies at the intersection between **Artificial Intelligence and Human Agency**. While modern generative tools are powerful, they often lack precise control and reliability for complex workflows. I'm passionate about bridging the gap between powerful generative tools and real-world usability.
 
-Whether it's through researching cognitive offloading on LLMs (at **ARACLA LAB**) or building multi-agent software development assistants (at **Acer**), my goal is to develop tools that empower and rather than replace humans. 
+Whether it's through researching cognitive offloading on LLMs (at **ARACLA LAB**) or building multi-agent software development assistants (at **Acer**), my goal is to develop tools that empower rather than replace humans. 
 
-## Leadership & Initiatives
+## Leadership & Community 
 
-Beyond technical research, I'm involved in various communities that focus on education and culture as I believe software systems are most effective when they're built with empathy for the user.
+Beyond academia and technical work, I'm involved in various communities that focus on education and culture as I believe software systems are most effective when they're built with empathy for the user.
 
-### Taiwanese Proramming Outreach Association (TPOA)
-Founder & Program Director - I founded TPOA to bring digital knowledge to rural areas of Taiwan. We worked with 10+ public schools and the Education Bureau to integrate programming and software knowledge into their cirruculums.
-
-### Taiwanese Student Association
-Treasurer & Board Member - At UCI, I helped run the biggest Taiwanese cultural organization on campus. I managed the budget for our events etc..
+I founded the **Taiwanese Programming Outreach Association (TPOA)**, we partnered with the Education Bureau to bring digital literacy to rural Taiwan, integrating CS curriculums into 10+ local schools. At UCI, I continued with my focus on community building as part of the **Taiwanese Student Association**, managing resources for 20+ events annually.
 
 ## Beyond the Lab
 
-When I'm not in the lab or school, I like to enjoy a variety of other more creative and physical activities, they often reveal subtle ways intersections with the technicality of my work.
+When I'm not in the lab or school, I also enjoy a variety of other more creative and physical activities, which I find myself occasionally discovering subtle intersections with the technicality of my work.
 
-I've been playing classical piano since I was a kid, here's a top 10 list of my favorite recordings. I'm also fond of origami (this is the inspiration for the crane motif). I also enjoy pour-over coffee, figuring out the game theory of poker, and skiing. 
+I've been playing classical piano since I was a kid, I find the discipline to practice transfers well into programming. If you're not familiar with classical music, **[here's a list of some of my favorite pieces and recordings of all time](/piano/)**.
+
+I also enjoying the intricacies of various 
+<span class="hover-reveal">
+  origami
+  <span class="hidden-content">
+    <img src="/assets/images/crane-logo.png" alt="Origami Crane">
+    (a ~1cm^3 paper crane I made, it's also the inspiration for this site's theme)
+  </span>
+</span>. 
+designs. My other interests include pour-over coffee, poker, and skiing, all of which allow me to explore complex systems in the physical world.
