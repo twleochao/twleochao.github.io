@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Leo (Yi-Ting) Chao
-masthead_title: 
-logo: "assets/images/crane-logo.png"
+masthead_title: ""
+logo: "assets/images/crane-logo.jpg"
 email: leo.yt.chao@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal portfolio for Leo Chao. 
