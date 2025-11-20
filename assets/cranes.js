@@ -76,7 +76,7 @@ class Crane {
     ctx.lineTo(-this.size, this.size);
     ctx.closePath();
     
-    ctx.fillStyle = 'rgba(100, 100, 100, 0.15)';
+    ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
     ctx.fill();
     
     ctx.restore();
