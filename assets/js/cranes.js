@@ -5,7 +5,7 @@ let width, height;
 let cranes = [];
 const mouse = { x: null, y: null };
 
-const CRANE_COUNT = 40;    
+const CRANE_COUNT = 50;    
 const MOUSE_RADIUS = 350; 
 const FORCE_STRENGTH = 0.12;
 const SPEED = 1.0;
@@ -68,30 +68,46 @@ class Crane {
   }
 
   draw(distToMouse) {
-    const angle = Math.atan2(this.vy, this.vx);
+const angle = Math.atan2(this.vy, this.vx);
     
     ctx.save();
     ctx.translate(this.x, this.y);
     ctx.rotate(angle + Math.PI/2);
 
     ctx.beginPath();
-    ctx.moveTo(0, -this.size * 1.5);
-    ctx.lineTo(this.size, this.size);
-    ctx.lineTo(0, this.size * 0.5);  
-    ctx.lineTo(-this.size, this.size);
+    ctx.moveTo(0, 0);
+    ctx.lineTo(-this.size * 1.2, this.size * 0.5);
+    ctx.lineTo(0, this.size * 2);
     ctx.closePath();
+    ctx.fillStyle = (distToMouse < MOUSE_RADIUS) ? `rgba(72, 199, 116, 0.8)` : 'rgba(255, 255, 255, 0.3)'; 
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.moveTo(0, 0);
+    ctx.lineTo(this.size * 1.2, this.size * 0.5);
+    ctx.lineTo(0, this.size * 2);
+    ctx.closePath();
+    ctx.fillStyle = (distToMouse < MOUSE_RADIUS) ? `rgba(72, 199, 116, 0.8)` : 'rgba(255, 255, 255, 0.3)';
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.moveTo(0, 0);
+    ctx.lineTo(0, -this.size * 1.5);
+    ctx.lineTo(this.size * 0.3, 0); 
+    ctx.lineTo(0, this.size * 1.8);
+    ctx.lineTo(-this.size * 0.3, 0);
+    ctx.closePath();
+    ctx.fillStyle = (distToMouse < MOUSE_RADIUS) ? '#48c774' : 'rgba(255, 255, 255, 0.5)';
+    ctx.fill();
     
     if (distToMouse < MOUSE_RADIUS) {
         const intensity = 1 - (distToMouse / MOUSE_RADIUS);
-        ctx.fillStyle = `rgba(72, 199, 116, ${0.3 + intensity * 0.7})`;
         ctx.shadowBlur = 15 * intensity;
         ctx.shadowColor = '#48c774';
     } else {
-        ctx.fillStyle = 'rgba(255, 255, 255, 0.15)';
         ctx.shadowBlur = 0;
     }
     
-    ctx.fill();
     ctx.restore();
   }
 }
