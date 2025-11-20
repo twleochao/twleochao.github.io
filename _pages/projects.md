@@ -15,7 +15,7 @@ feature_row:
     alt: "MAS SDLC"
     title: "Acer MAS SDLC Agent"
     excerpt: "Multi-agent system reducing dev time by 35%."
-    url: "/projects/acer/"
+    url: "/projects/massdlc/"
     btn_label: "View Project"
     btn_class: "btn--primary"
   - image_path: /assets/images/headsup-demo.gif

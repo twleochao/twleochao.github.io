@@ -3,9 +3,6 @@ permalink: /about/
 title: "About Me"
 layout: single
 author_profile: true
-toc: true
-toc_label: "Overview"
-toc_icon: "user"
 ---
 
 Hi! I'm Leo, currently a 3rd year (senior standing) at University of California, Irvine studying Computer Science with a specialization in Intelligent Systems. 
