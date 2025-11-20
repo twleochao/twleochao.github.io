@@ -5,31 +5,34 @@ title: "What I've Made"
 author_profile: true
 
 feature_row:
-  - image_path: /assets/images/chat-bloom-diagram.png
+- icon: "fas fa-brain"
     alt: "ARCALA Lab"
     title: "ARCALA Lab"
-    excerpt: "Measuring cognitive offloading from LLM use."
+    excerpt: "A framework to measure cognitive offloading in AI-assisted learning."
     url: "/projects/arcala/"
-    btn_label: "View Project"
+    btn_label: "View Research"
     btn_class: "btn--primary"
-  - image_path: /assets/images/acer-architecture.png
+    
+  - icon: "fas fa-network-wired"
     alt: "MAS SDLC"
-    title: "Acer MAS SDLC Agent"
-    excerpt: "Multi-agent system for automating Software Development Life Cycle."
+    title: "Acer: Multi-Agent SDLC"
+    excerpt: "Orchestrating software lifecycles with controllable multi-agent systems."
     url: "/projects/massdlc/"
-    btn_label: "View Project"
+    btn_label: "View System"
     btn_class: "btn--primary"
-  - image_path: /assets/images/headsup-demo.gif
+    
+  - icon: "fas fa-diamond"
     alt: "HeadsUp"
-    title: "HeadsUp HUD"
-    excerpt: "GTO based real-time poker HUD for pre and post flop advice."
+    title: "HeadsUp: Real-Time HUD"
+    excerpt: "Real-time game theory inference engine delivering advice in <20ms."
     url: "/projects/headsup/"
-    btn_label: "View Project"
+    btn_label: "View Tool"
     btn_class: "btn--primary"
-  - image_path: /assets/images/pdfim-demo.gif
+    
+  - icon: "fas fa-terminal"
     alt: "PDFim"
-    title: "PDFim"
-    excerpt: "Vim-like terminal PDF viewer with adaptive layout."
+    title: "PDFim: Terminal Reader"
+    excerpt: "Adaptive layout engine for reading academic papers in the terminal."
     url: "/projects/pdfim/"
     btn_label: "View Project"
     btn_class: "btn--primary"

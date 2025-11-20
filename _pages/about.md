@@ -60,7 +60,7 @@ I founded the **Taiwanese Programming Outreach Association (TPOA)**, we partnere
 
 When I'm not in the lab or school, I also enjoy a variety of other more creative and physical activities, which I find myself occasionally discovering subtle intersections with the technicality of my work.
 
-I've been playing classical piano since I was a kid, I find the discipline to practice transfers well into programming. If you're not familiar with classical music, **[here's a list of some of my favorite pieces and recordings of all time](/piano/)**.
+I've been playing classical piano since I was a kid, I find the discipline to practice transfers well into programming. If you're not familiar with classical music, **[here's](/piano/)** a list of some of my favorite pieces and recordings of all time.
 
 I also enjoying the intricacies of various 
 <span class="hover-reveal">
