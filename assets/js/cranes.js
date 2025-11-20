@@ -5,10 +5,10 @@ let width, height;
 let cranes = [];
 const mouse = { x: null, y: null };
 
-const CRANE_COUNT = 35;
-const CONNECTION_DIST = 100;
-const MOUSE_RADIUS = 200;
-const SPEED = 0.8; 
+const CRANE_COUNT = 40;    
+const MOUSE_RADIUS = 350; 
+const FORCE_STRENGTH = 0.12;
+const SPEED = 1.0;
 
 function resize() {
   width = canvas.width = window.innerWidth;
@@ -28,41 +28,46 @@ class Crane {
     this.y = Math.random() * height;
     this.vx = (Math.random() - 0.5) * SPEED;
     this.vy = (Math.random() - 0.5) * SPEED;
-    this.size = Math.random() * 3 + 5; 
+    this.size = Math.random() * 3 + 6; 
   }
 
   update() {
     this.x += this.vx;
     this.y += this.vy;
 
+    let distToMouse = 9999;
+
     if (mouse.x != null) {
       let dx = mouse.x - this.x;
       let dy = mouse.y - this.y;
-      let distance = Math.sqrt(dx*dx + dy*dy);
+      distToMouse = Math.sqrt(dx*dx + dy*dy);
       
-      if (distance < MOUSE_RADIUS) {
-        const forceDirectionX = dx / distance;
-        const forceDirectionY = dy / distance;
-        const force = (MOUSE_RADIUS - distance) / MOUSE_RADIUS;
+      if (distToMouse < MOUSE_RADIUS) {
+        const forceDirectionX = dx / distToMouse;
+        const forceDirectionY = dy / distToMouse;
+        const force = (MOUSE_RADIUS - distToMouse) / MOUSE_RADIUS;
         
-        this.vx += forceDirectionX * force * 0.05;
-        this.vy += forceDirectionY * force * 0.05;
+        this.vx += forceDirectionX * force * FORCE_STRENGTH;
+        this.vy += forceDirectionY * force * FORCE_STRENGTH;
       }
     }
 
     const speed = Math.sqrt(this.vx*this.vx + this.vy*this.vy);
-    if (speed > 2) {
-      this.vx = (this.vx / speed) * 2;
-      this.vy = (this.vy / speed) * 2;
+    const maxSpeed = 3.5;
+    if (speed > maxSpeed) {
+      this.vx = (this.vx / speed) * maxSpeed;
+      this.vy = (this.vy / speed) * maxSpeed;
     }
 
     if (this.x > width) this.x = 0;
     if (this.x < 0) this.x = width;
     if (this.y > height) this.y = 0;
     if (this.y < 0) this.y = height;
+
+    return distToMouse;
   }
 
-  draw() {
+  draw(distToMouse) {
     const angle = Math.atan2(this.vy, this.vx);
     
     ctx.save();
@@ -76,9 +81,17 @@ class Crane {
     ctx.lineTo(-this.size, this.size);
     ctx.closePath();
     
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
-    ctx.fill();
+    if (distToMouse < MOUSE_RADIUS) {
+        const intensity = 1 - (distToMouse / MOUSE_RADIUS);
+        ctx.fillStyle = `rgba(72, 199, 116, ${0.3 + intensity * 0.7})`;
+        ctx.shadowBlur = 15 * intensity;
+        ctx.shadowColor = '#48c774';
+    } else {
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.15)';
+        ctx.shadowBlur = 0;
+    }
     
+    ctx.fill();
     ctx.restore();
   }
 }
@@ -94,8 +107,8 @@ function animate() {
   ctx.clearRect(0, 0, width, height);
   
   cranes.forEach(crane => {
-    crane.update();
-    crane.draw();
+    const dist = crane.update();
+    crane.draw(dist);
   });
   
   requestAnimationFrame(animate);
