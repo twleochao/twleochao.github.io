@@ -1,19 +1,21 @@
 <style>
-  .masthead {
+  .masthead, .masthead .inner-wrap {
     background-color: #252a34 !important; 
     position: relative;
     z-index: 999 !important;
+  }
+  
+  .masthead {
     border-bottom: 1px solid #333;
   }
 
-  .masthead__site-title {
+  .masthead__site-title,
+  .site-title,
+  .masthead__menu-item--brand {
     display: none !important;
-  }
-  .masthead__site-subtitle {
-    display: none !important;
+    visibility: hidden !important;
   }
 
-  
   a, a:visited { color: #48c774; }
   a:hover, a:focus { color: #3da863 !important; }
   

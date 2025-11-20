@@ -1,27 +1,27 @@
 ---
 layout: single
 permalink: /projects/
-title: "Selected Projects"
+title: "Notable Projects"
 author_profile: true
 feature_row:
   - image_path: /assets/images/chat-bloom-diagram.png
     alt: "ARCALA Lab"
     title: "ARCALA Lab"
-    excerpt: "Framework measuring cognitive offloading in AI tutors."
+    excerpt: "Measuring cognitive offloading from LLM use."
     url: "/projects/arcala/"
     btn_label: "View Project"
     btn_class: "btn--primary"
   - image_path: /assets/images/acer-architecture.png
     alt: "MAS SDLC"
     title: "Acer MAS SDLC Agent"
-    excerpt: "Multi-agent system reducing dev time by 35%."
+    excerpt: "Multi-agent system for automating Software Development Life Cycle."
     url: "/projects/massdlc/"
     btn_label: "View Project"
     btn_class: "btn--primary"
   - image_path: /assets/images/headsup-demo.gif
     alt: "HeadsUp"
     title: "HeadsUp HUD"
-    excerpt: "A <20ms latency poker HUD using Selenium and XGBoost."
+    excerpt: "GTO based real-time poker HUD for pre and post flop advice."
     url: "/projects/headsup/"
     btn_label: "View Project"
     btn_class: "btn--primary"
