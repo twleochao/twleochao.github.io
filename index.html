@@ -6,21 +6,21 @@ hidden: true
 
 <canvas id="craneCanvas" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none;"></canvas>
 
-<div style="position: relative; z-index: 2; display: flex; align-items: center; justify-content: center; gap: 50px; margin: 8vh 0 60px 0; flex-wrap: wrap;">
+<div style="position: relative; z-index: 2; display: flex; align-items: center; justify-content: center; gap: 40px; margin: 8vh auto 60px auto; max-width: 1000px; padding: 0 20px; flex-wrap: wrap;">
   
   <img src="/assets/images/bio-photo.jpg" alt="Leo Chao" style="width: 160px; height: 160px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 20px rgba(0,0,0,0.4); border: 2px solid rgba(72, 199, 116, 0.3);">
   
-  <div style="flex: 1; min-width: 300px; max-width: 650px;">
+  <div style="flex: 1; min-width: 300px; max-width: 700px;">
     
     <h1 style="margin-bottom: 15px; font-size: 2.5em; font-weight: 700; letter-spacing: -0.5px;">Leo (Yi-Ting) Chao</h1>
     
     <div style="font-size: 1.1em; line-height: 1.6; color: #bbb; margin-bottom: 25px; border-left: 3px solid #48c774; padding-left: 15px;">
       CS & AI @ UCI<br>
-      Researcher @ ARACLA Lab<br>
+      Researcher @ ARACALA Lab<br>
       Ex-SWE @ Acer
     </div>
 
-    <div style="height: 50px; margin-bottom: 30px;"> 
+    <div style="height: 50px; margin-bottom: 30px; overflow: hidden; white-space: nowrap;"> 
       <span id="typewriter" style="font-family: 'Courier New', monospace; font-size: 1.1em; color: #48c774;"></span><span class="cursor">|</span>
     </div>
     
@@ -56,7 +56,7 @@ hidden: true
 <script src="/assets/js/cranes.js"></script>
 
 <script>
-  const text = "Designing intelligent systems that collaborate with humans under real conditions."; 
+  const text = "Building intelligent systems for seamless human-AI collaboration.";
   const speed = 40; 
   let i = 0;
   
