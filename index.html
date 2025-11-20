@@ -4,6 +4,8 @@ permalink: /
 hidden: true
 ---
 
+<canvas id="craneCanvas" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none;"></canvas>
+
 <div style="display: flex; align-items: center; justify-content: center; gap: 30px; margin: 40px 0 60px 0; flex-wrap: wrap;">
   
   <img src="/assets/images/bio-photo.jpg" alt="Leo Chao" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
@@ -31,35 +33,13 @@ hidden: true
 
   <h2 style="border-bottom: 1px solid #444; padding-bottom: 10px;">News</h2>
   <ul style="list-style: none; padding: 0; font-size: 1em; line-height: 2;">
-    <li><strong>Aug 2025:</strong> Submitted "PREVAIL" paper to <em>EAAI-26</em>.</li>
-    <li><strong>Jul 2025:</strong> Submitted "Chat-Bloom" paper to <em>Koli Calling '25</em>.</li>
-    <li><strong>Jun 2025:</strong> Joined <strong>Acer</strong>as SWE Intern</li>
-    <li><strong>Jan 2025:</strong> Joined <strong>ARCALA Lab</strong></li>
-    <li><strong>Sep 2023:</strong> Attended UCI</li>
+    <li><strong>08/2025:</strong> Submitted "PREVAIL" paper to <em>EAAI-26</em>.</li>
+    <li><strong>07/2025:</strong> Submitted "Chat-Bloom" paper to <em>Koli Calling '25</em>.</li>
+    <li><strong>06/2025:</strong> Joined <strong>Acer</strong> as SWE Intern</li>
+    <li><strong>01/2025:</strong> Joined <strong>ARCALA Lab</strong></li>
+    <li><strong>09/2023:</strong> Attended <strong>UCI</strong></li>
   </ul>
 
 </div>
 
-<div style="text-align: center; margin-top: 80px; margin-bottom: 40px;">
-  <svg width="100" height="100" viewBox="0 0 100 100" class="crane-icon">
-    <path d="M50 20 L80 40 L50 60 L20 40 Z" fill="#444" class="wing-left" />
-    <path d="M50 60 L80 80 L50 80 Z" fill="#555" class="wing-right" />
-    <path d="M50 20 L50 80" stroke="#666" stroke-width="1" />
-  </svg>
-  <p style="font-size: 0.8em; color: #666; margin-top: 10px;">( Hover to Fold )</p>
-</div>
-
-<style>
-  .crane-icon:hover .wing-left {
-    transform: rotate(-10deg);
-    transform-origin: center;
-    transition: 0.5s ease;
-    fill: #48c774; 
-  }
-  .crane-icon:hover .wing-right {
-    transform: rotate(10deg);
-    transform-origin: center;
-    transition: 0.5s ease;
-    fill: #48c774;
-  }
-</style>
+<script src="/assets/js/crane.js"></script>
