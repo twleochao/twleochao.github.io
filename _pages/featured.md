@@ -1,8 +1,9 @@
 ---
 layout: single
-permalink: /projects/
-title: "Notable Projects"
+permalink: /featured/
+title: "What I've Made"
 author_profile: true
+
 feature_row:
   - image_path: /assets/images/chat-bloom-diagram.png
     alt: "ARCALA Lab"
@@ -33,5 +34,7 @@ feature_row:
     btn_label: "View Project"
     btn_class: "btn--primary"
 ---
+
+
 
 {% include feature_row %}
