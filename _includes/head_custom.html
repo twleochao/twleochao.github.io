@@ -1,31 +1,42 @@
 <style>
-  .masthead, 
-  .masthead .inner-wrap,
-  .greedy-nav {
+  .masthead {
     background-color: #252a34 !important;
     position: relative;
-    z-index: 10 !important;
-  }
-  
-  .masthead {
+    z-index: 9999 !important;
     border-bottom: 1px solid #333;
+    width: 100%;
+  }
+
+  .masthead .inner-wrap {
+    background-color: #252a34 !important;
+    z-index: 10000 !important;
+  }
+
+  .greedy-nav {
+    background-color: #252a34 !important;
   }
 
   .masthead__site-title,
   .site-title,
-  .masthead__menu-item--brand {
+  .masthead__site-subtitle {
     display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
   }
 
   a, a:visited { color: #48c774; }
   a:hover, a:focus { color: #3da863 !important; }
   
-  .greedy-nav a { color: #fff !important; }
-  .greedy-nav a:hover { color: #48c774 !important; }
-  .greedy-nav .visible-links a:hover { color: #48c774 !important; }
+  .greedy-nav a,
+  .greedy-nav .visible-links a {
+    color: #fff !important; 
+  }
+  .greedy-nav a:hover,
+  .greedy-nav .visible-links a:hover {
+    color: #48c774 !important; 
+  }
 
-  .btn--primary { background-color: #48c774 !important; }
-  
   .page__content a { color: #48c774 !important; }
   .page__content a:hover { color: #3da863 !important; }
+  .btn--primary { background-color: #48c774 !important; }
 </style>

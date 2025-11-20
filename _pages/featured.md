@@ -35,6 +35,8 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-
+i<p style="font-size: 1.2em; color: #bbb; margin-top: -20px; margin-bottom: 40px;">
+  Heres a collection of research, engineering, and design systems I've worked on that prioritize human agency.
+</p>
 
 {% include feature_row %}
