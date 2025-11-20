@@ -1,6 +1,22 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 {% assign logo_url = logo_path | relative_url %}
 
+<style>
+  .custom-nav-link {
+    display: block;
+    color: #fff !important;    
+    text-decoration: none !important;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s ease;
+    padding-bottom: 2px;
+  }
+
+  .custom-nav-link:hover {
+    color: #fff !important;      
+    border-bottom: 2px solid #48c774 !important;
+  }
+</style>
+
 <div class="masthead" style="background-color: #252a34 !important; border-bottom: 1px solid #333; position: relative; z-index: 999;">
   <div class="masthead__inner-wrap" style="background-color: #252a34 !important;">
     <div class="masthead__menu">
@@ -13,10 +29,7 @@
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}" 
-                 style="color: #fff;" 
-                 onmouseover="this.style.color='#48c774'" 
-                 onmouseout="this.style.color='#fff'">
+              <a href="{{ link.url | relative_url }}" class="custom-nav-link">
                 {{ link.title }}
               </a>
             </li>
