@@ -16,9 +16,10 @@ Currently, I'm a researcher at UCI's ARCALA Lab. Previously, I was a SWE intern 
 
 Beyond technical research, I'm involved in various communities that focus on education and culture.
 
-# Taiwanese Proramming Outreach Association (TPOA)
+### Taiwanese Proramming Outreach Association (TPOA)
 
-# Taiwanese Student Association
+### Taiwanese Student Association
 
 ## Beyond the Lab
 
+When I'm not in the lab or school, I like to enjoy a variety of other activities. 
