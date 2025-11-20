@@ -2,38 +2,39 @@
 {% assign logo_url = logo_path | relative_url %}
 
 <style>
-  /* 1. BASE LINK STYLE */
   .custom-nav-link {
     display: block;
-    position: relative; /* Needed for the absolute positioning of the line */
+    position: relative;
     color: #fff !important;
     text-decoration: none !important;
     border: none !important;
-    box-shadow: none !important; /* Kills the default blue underline */
-    padding-bottom: 5px; /* Space between text and line */
+    box-shadow: none !important;
+    padding-bottom: 5px;
   }
 
-  /* 2. THE INVISIBLE LINE (Pre-Hover) */
   .custom-nav-link::after {
     content: '';
     position: absolute;
-    bottom: 0;
-    left: 50%; /* Start from the middle */
-    transform: translateX(-50%); /* Center alignment */
-    width: 0%; /* Start invisible */
-    height: 3px; /* Thickness of the line */
-    background-color: #48c774; /* Your Green */
-    transition: width 0.3s ease-in-out; /* The Animation Speed */
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 3px;
+    background-color: #48c774;
+    transition: width 0.3s ease-in-out;
   }
 
-  /* 3. THE HOVER ACTION */
   .custom-nav-link:hover {
-    color: #fff !important; /* Text stays white */
+    color: #fff !important;
   }
   
-  /* Grow the line to 100% width on hover */
   .custom-nav-link:hover::after {
     width: 100%; 
+  }
+
+  .greedy-nav a {
+    box-shadow: none !important;
+    text-decoration: none !important
   }
 </style>
 
