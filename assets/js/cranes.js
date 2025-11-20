@@ -8,8 +8,8 @@ const mouse = { x: null, y: null };
 const CRANE_COUNT = 35;       
 const MOUSE_RADIUS = 350;     
 const FORCE_STRENGTH = 0.12;  
-const SPEED = 1.0;
-const LIFESPAN = 30000;
+const SPEED = 0.8;
+const LIFESPAN = 25000;
 
 function resize() {
   width = canvas.width = window.innerWidth;
@@ -23,7 +23,6 @@ window.addEventListener('mousemove', (e) => {
   mouse.y = e.y;
 });
 
-// --- CLICK TO SPAWN ---
 window.addEventListener('mousedown', (e) => {
   for (let i = 0; i < 3; i++) {
     cranes.push(new Crane(e.x, e.y));
@@ -37,6 +36,8 @@ class Crane {
     this.vx = (Math.random() - 0.5) * SPEED;
     this.vy = (Math.random() - 0.5) * SPEED;
     this.size = Math.random() * 3 + 6; 
+
+    this.lifeSpan = 30000 + (Math.random() * 15000)
     this.createdAt = Date.now();
   }
 
