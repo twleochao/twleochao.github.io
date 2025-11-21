@@ -61,15 +61,15 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "CS & AI @ UCI<br>Researcher @ ARACLA Lab<br>Ex-SWE @ Acer"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:leo.yt.chao@gmail.com"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/leoytchao"
     - label: "Github"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/twleochao"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:leo.yt.chao@gmail.com"
 
 footer:
   links:
