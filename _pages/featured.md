@@ -43,7 +43,7 @@ feature_row:
 <style>
   .archive__item-teaser i {
     display: block !important;
-    font-size: 4em !important;
+    font-size: 3.5em !important;
     color: #fff !important;
     margin-bottom: 15px;
     text-align: center;
