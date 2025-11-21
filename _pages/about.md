@@ -71,4 +71,4 @@ When I'm not in the lab or school, I also enjoy a variety of other more creative
 
 I've been playing classical piano since I was a kid, I find the discipline to practice transfers well into programming. If you're not familiar with classical music, **[here's](/piano/)** a list of some of my favorite pieces and recordings of all time.
 
-I also enjoying the intricacies of various <span class="hover-reveal">origami<span class="hidden-content"><img src="/assets/images/crane-logo.png" alt="Origami Crane">a ~1cm^3 paper crane I made (this is the inspiration for the site's theme)</span></span> designs. My other interests include pour-over coffee, poker, and skiing, all of which reveal a different complex part of the physical world to me.
+I also enjoying the intricacies of various <span class="hover-reveal">origami<span class="hidden-content"><img src="/assets/images/tinycrane.jpg" alt="Origami Crane">a ~1cm^3 paper crane I made (this is the inspiration for the site's theme)</span></span> designs. My other interests include pour-over coffee, poker, and skiing, all of which reveal a different complex part of the physical world to me.
