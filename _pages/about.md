@@ -6,10 +6,14 @@ author_profile: true
 ---
 
 <style>
-  .page__content {
-    max-width: 1100px !important;
-    width: 75% !important;
-    font-size: 0.9em !important;
+@media (min-width: 64em) {
+    .page__content {
+      width: calc(100% - 300px) !important;
+      max-width: 1100px !important;
+      margin-left: 50px !important;
+      margin-right: 0 !important;
+      font-size: 0.9em !important;
+    }
   }
 
   .hover-reveal {
