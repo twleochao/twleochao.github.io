@@ -77,4 +77,4 @@ feature_row:
   Here's a collection of research, industry, and personal engineering/design projects I've worked on that emphasize human agency in software systems.
 </p>
 
-{% include feature_row.html }%
+{% include feature_row.html%}
