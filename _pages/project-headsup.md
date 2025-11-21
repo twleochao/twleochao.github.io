@@ -2,12 +2,6 @@
 layout: single
 title: "HeadsUp: Real-Time Game Theory"
 permalink: /projects/headsup/
-toc: true
-toc_label: "System Design"
-header:
-  overlay_image: /assets/images/headsup-demo.gif
-  overlay_filter: 0.5
-  caption: "< 20ms Latency Processing"
 sidebar:
   - title: "Role"
     text: "Sole Developer"

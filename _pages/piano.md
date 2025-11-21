@@ -5,7 +5,7 @@ title: "Favorite Recordings"
 author_profile: true
 ---
 
-These are some of my favorite recordings for solo and concerto pieces I've played or really enjoy, in no particular order.
+These are some of my favorite recordings of solo piano and other classical pieces of all time, they are in no particular order.
 
 ### Alexander Scriabin Feuillet d'album(Album Leaf) Op. 45 No. 1 in E-flat major
 *Played by Heinrich Neuhaus*

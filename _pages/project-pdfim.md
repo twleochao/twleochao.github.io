@@ -2,12 +2,6 @@
 layout: single
 title: "PDFim: Adaptive Terminal Reader"
 permalink: /projects/pdfim/
-toc: true
-toc_label: "Technical Details"
-header:
-  overlay_image: /assets/images/pdfim-demo.gif
-  overlay_filter: 0.5
-  caption: "Reading papers over SSH"
 sidebar:
   - title: "Stack"
     text: "Python, curses, PyMuPDF"

@@ -2,36 +2,33 @@
 layout: single
 title: "Chat-Bloom: Measuring Cognitive Offloading"
 permalink: /projects/arcala/
-toc: true
-toc_label: "Methodology"
-header:
-  overlay_image: /assets/images/chat-bloom-diagram.jpg
-  overlay_filter: 0.5
-  caption: "The Chat-Bloom Taxonomy"
 sidebar:
-  - title: "Role"
-    text: "Lead Technical Implementation"
-  - title: "Stack"
-    text: "PyTorch, Hugging Face (BERT), Next.js, Vercel AI SDK"
+  - title: "Lab"
+    text: "ARCALA (Prof. Thomas Yeh)"
   - title: "Output"
-    text: "Paper in revision for ITiCSE 2026"
+    text: "Paper under revision (ITiCSE '26)"
 ---
 
-**Abstract:** While LLMs offer immediate help, they risk inducing "cognitive offloading," where students bypass critical thinking. At ARCALA Lab, I engineered the data collection infrastructure and machine learning pipelines to empirically measure this phenomenon across 8,000+ student interactions.
+As Large Language Models enter the classroom, there is a fear that students are "offloading" their thinking to AI—getting the answer without understanding the concept. But how do we actually measure this?
 
-## 1. Data Infrastructure (iGPT)
-To analyze student behavior, we needed granular logs that commercial interfaces (like ChatGPT) do not provide.
-* **Custom Interface:** I designed and deployed "iGPT," a chat application built with **Next.js** and **Vercel AI SDK**.
-* **Deployment:** The tool was integrated into CS0 and CS1 courses, maintaining server stability for 234 students over two quarters.
-* **Dataset:** Successfully collected and anonymized **8,076 interaction turns**, creating the foundation for our empirical analysis.
+Existing metrics like "correctness" or "time-on-task" don't capture *cognitive effort*. My work at ARCALA Lab focused on building the **observability layer** to quantify exactly how much students rely on AI.
 
-## 2. The Classification Pipeline
-Manual coding of chat logs is unscalable. I led the effort to automate the classification of "cognitive depth" using the Chat-Bloom taxonomy.
-* **Model Architecture:** I fine-tuned **BERT-Large** and **DistilBERT** transformer models using the Hugging Face library.
-* **Training Strategy:** Used a weighted loss function to handle class imbalance (e.g., the prevalence of "Analyze" vs. "Create" prompts).
-* **Results:** The ensemble model achieved **~85-90% accuracy** (comparable to human inter-rater reliability), allowing us to evaluate student offloading behaviors at scale.
+## The Instrument: iGPT
+We couldn't use standard ChatGPT logs because they lack granular telemetry. I built **iGPT**, a custom chat interface using **Next.js and the Vercel AI SDK**. 
+Unlike a standard chatbot, iGPT was instrumented to capture interaction metadata in real-time. We deployed this to 234 students across CS0/CS1 courses, collecting a dataset of **8,076 interactions**.
 
-## 3. The "PREVAIL" Harness
-Beyond static classification, I co-engineered the **PREVAIL** evaluation harness to measure "pedagogical effectiveness."
-* **Predictive Replay:** The system simulates how a student's *next* turn changes based on different LLM responses (e.g., does a "Redirect" prompt lead to an "Analyze" response from the student?).
-* **Outcome:** We identified that "Redirect" responses (withholding the answer) successfully shifted students from low-effort recall to higher-order analysis.
+<figure>
+  <img src="/assets/images/chat-bloom-diagram.jpg" alt="The Chat-Bloom Taxonomy Diagram">
+  <figcaption>Figure 1: The Chat-Bloom framework used to classify student intent, ranging from low-effort "Recall" to high-effort "Create".</figcaption>
+</figure>
+
+## The Methodology: Automating Bloom's Taxonomy
+Manually coding thousands of chat logs is impossible at scale. We needed a way to classify the "cognitive depth" of every prompt (e.g., is the student asking "Answer this" or "Explain this"?).
+
+I led the training of our automated classifiers:
+* I fine-tuned **BERT-Large and DistilBERT** models on our manually labeled "ground truth" dataset.
+* To handle class imbalance (since most students just ask for answers), I implemented a **weighted loss function** during training.
+* The final ensemble achieved **~85-90% accuracy**, allowing us to visualize the "cognitive trajectory" of a student over an entire quarter.
+
+## Key Finding
+We discovered that "system design" dictates behavior. When we tweaked the AI to withhold direct answers (a "Redirect" strategy), we saw a measurable shift in student prompting from "Recall" (low effort) to "Analyze" (high effort). This suggests that "cognitive offloading" isn't just a student trait—it's a UI design choice.

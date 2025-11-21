@@ -2,12 +2,6 @@
 layout: single
 title: "Acer: Multi-Agent SDLC Automation"
 permalink: /projects/massdlc/
-toc: true
-toc_label: "Architecture"
-header:
-  overlay_image: /assets/images/acer-architecture.png
-  overlay_filter: 0.5
-  caption: "Controllable Multi-Agent Systems"
 sidebar:
   - title: "Role"
     text: "Software Engineering Intern"
