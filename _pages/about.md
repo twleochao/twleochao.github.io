@@ -10,9 +10,8 @@ author_profile: true
     width: calc(100% - 300px) !important;
     max-width: 100%!important;
     margin-left: 50px !important;
-    margin-right: 0 !important;
+    margin-right: 50 !important;
     font-size: 0.85em !important;
-    padding-right: 40px !important;
   }
   
 
