@@ -7,10 +7,10 @@ author_profile: true
 
 <style>
  .page__content {
-    width: calc(100% - 300px) !important;
+    width: 100% !important;
     max-width: 100%!important;
     margin-left: 50px !important;
-    margin-right: 50 !important;
+    margin-right: 50px !important;
     font-size: 0.85em !important;
   }
   
