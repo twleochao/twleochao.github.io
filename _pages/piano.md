@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /piano/
-title: "Piano Recordings"
+title: "Favorite Recordings"
 author_profile: true
 ---
 

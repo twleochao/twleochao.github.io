@@ -11,10 +11,6 @@ author_profile: true
     width: 75% !important;
     font-size: 0.9em !important;
   }
-  .page__content p, 
-  .page__content li {
-    max-width: 900px;
-  }
 
   .hover-reveal {
     position: relative;
