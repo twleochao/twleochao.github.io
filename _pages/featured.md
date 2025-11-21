@@ -26,7 +26,7 @@ feature_row:
     title: "HeadsUp: Real-Time HUD"
     excerpt: "Real-time game theory inference engine delivering advice in <20ms."
     url: "/projects/headsup/"
-    btn_label: "View Tool"
+    btn_label: "View Project"
     btn_class: "btn--primary"
     
   - icon: "fas fa-terminal"
@@ -38,7 +38,7 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
-<p style="font-size: 1.2em; color: #bbb; margin-top: 30px; margin-bottom: 40px;">
+<p style="font-size: 1.0em; color: #bbb; margin-top: 30px; margin-bottom: 40px;">
   Heres a collection of research, engineering, and design systems I've worked on that prioritize human agency.
 </p>
 

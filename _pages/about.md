@@ -9,10 +9,11 @@ author_profile: true
 @media (min-width: 64em) {
     .page__content {
       width: calc(100% - 300px) !important;
-      max-width: 1100px !important;
+      max-width: 100%!important;
       margin-left: 50px !important;
       margin-right: 0 !important;
       font-size: 0.9em !important;
+      padding-right: 40px !important;
     }
   }
 
