@@ -9,9 +9,9 @@ author_profile: true
  .page__content {
     width: 100% !important;
     max-width: 100%!important;
-    margin-left: 50px !important;
     margin-right: 50px !important;
     font-size: 0.85em !important;
+    padding-right: 20px !important;
   }
   
 

@@ -1,7 +1,7 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 {% assign logo_url = logo_path | relative_url %}
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
 <style>
   .custom-nav-link {
@@ -38,6 +38,28 @@
   .greedy-nav a {
     box-shadow: none !important;
     text-decoration: none !important
+  }
+
+  @media (min-width: 64em) {
+    .page__content {
+      width: 100% !important;
+      max-width: 100% !important;
+      margin-right: 0 !important;
+      float: none !important;
+      padding-right: 40px !important;
+    }
+
+    .feature__item {
+      flex: 0 0 33.33333% !important;
+      max-width: 33.33333% !important;
+      padding-right: 20px !important; 
+    }
+    
+    .feature__row {
+      display: flex !important;
+      flex-wrap: wrap !important;
+      justify-content: flex-start !important;
+    }
   }
 </style>
 
