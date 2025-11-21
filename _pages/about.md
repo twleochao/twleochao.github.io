@@ -3,15 +3,12 @@ permalink: /about/
 title: "About Me"
 layout: single
 author_profile: true
+classes: wide
 ---
 
 <style>
  .page__content {
-    width: 100% !important;
-    max-width: 100%!important;
-    margin-right: 50px !important;
     font-size: 0.85em !important;
-    padding-right: 20px !important;
   }
   
 
