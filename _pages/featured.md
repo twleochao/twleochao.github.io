@@ -60,7 +60,7 @@ feature_row:
 </style>
 
 <p style="font-size: 1.0em; color: #bbb; margin-top: 30px; margin-bottom: 40px;">
-  Here's a collection of research, industry, and personal engineering projects I've worked on that prioritize human agency.
+  Here's a collection of research, industry, and personal engineering/design projects I've worked on that emphasize human agency in software systems.
 </p>
 
 {% include feature_row %}
