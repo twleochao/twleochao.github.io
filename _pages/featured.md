@@ -38,6 +38,27 @@ feature_row:
     btn_class: "btn--primary"
 ---
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+  .archive__item-teaser i {
+    display: block !important;
+    font-size: 4em !important;
+    color: #48c774 !important;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .btn--primary {
+    background-color: #48c774 !important;
+    border-color: #48c774 !important;
+  }
+  .btn--primary:hover {
+    background-color: #3da863 !important; 
+  }
+</style>
+
 <p style="font-size: 1.0em; color: #bbb; margin-top: 30px; margin-bottom: 40px;">
   Here's a collection of research, industry, and personal engineering projects I've worked on that prioritize human agency.
 </p>
