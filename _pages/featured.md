@@ -44,10 +44,11 @@ feature_row:
   .archive__item-teaser i {
     display: block !important;
     font-size: 4em !important;
-    color: #48c774 !important;
+    color: #fff !important;
     margin-bottom: 15px;
     text-align: center;
     width: 100%;
+    opacity: 0.9;
   }
   
   .btn--primary {
@@ -56,6 +57,19 @@ feature_row:
   }
   .btn--primary:hover {
     background-color: #3da863 !important; 
+  }
+
+  .archive__item-body {
+    text-align: center !important;
+  }
+  
+  .archive__item-excerpt {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+  }
+
+  .archive__item-body p {
+    text-align: center !important;
   }
 </style>
 
