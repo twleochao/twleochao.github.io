@@ -6,6 +6,16 @@ author_profile: true
 ---
 
 <style>
+  .page__content {
+    max-width: 1100px !important;
+    width: 75% !important;
+    font-size: 0.9em !important;
+  }
+  .page__content p, 
+  .page__content li {
+    max-width: 900px;
+  }
+
   .hover-reveal {
     position: relative;
     color: #48c774;
@@ -54,7 +64,7 @@ Whether it's through researching cognitive offloading on LLMs (at **ARACLA LAB**
 
 Beyond academia and technical work, I'm involved in various communities that focus on education and culture as I believe software systems are most effective when they're built with empathy for the user.
 
-I founded the **Taiwanese Programming Outreach Association (TPOA)**, we partnered with the Education Bureau to bring digital literacy to rural Taiwan, integrating CS curriculums into 10+ local schools. At UCI, I continued with my focus on community building as part of the **Taiwanese Student Association**, managing resources for 20+ events annually.
+I founded the **Taiwanese Programming Outreach Association (TPOA)**, where we partnered with the Education Bureau to bring digital literacy to rural Taiwan, integrating CS curriculums into 10+ local schools. At UCI, I continued with my focus on community building as part of the **Taiwanese Student Association**, managing resources for 20+ events annually.
 
 ## Beyond the Lab
 
@@ -62,12 +72,4 @@ When I'm not in the lab or school, I also enjoy a variety of other more creative
 
 I've been playing classical piano since I was a kid, I find the discipline to practice transfers well into programming. If you're not familiar with classical music, **[here's](/piano/)** a list of some of my favorite pieces and recordings of all time.
 
-I also enjoying the intricacies of various 
-<span class="hover-reveal">
-  origami
-  <span class="hidden-content">
-    <img src="/assets/images/crane-logo.png" alt="Origami Crane">
-    (a ~1cm^3 paper crane I made, it's also the inspiration for this site's theme)
-  </span>
-</span>. 
-designs. My other interests include pour-over coffee, poker, and skiing, all of which allow me to explore complex systems in the physical world.
+I also enjoying the intricacies of various <span class="hover-reveal">origami<span class="hidden-content"><img src="/assets/images/crane-logo.png" alt="Origami Crane">a ~1cm^3 paper crane I made (this is the inspiration for the site's theme)</span></span> designs. My other interests include pour-over coffee, poker, and skiing, all of which reveal a different complex part of the physical world to me.
