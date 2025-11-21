@@ -3,7 +3,7 @@ layout: single
 permalink: /featured/
 title: "What I've Made"
 author_profile: true
-
+classes: wide
 feature_row:
   - icon: "fas fa-brain"
     alt: "ARCALA Lab"
