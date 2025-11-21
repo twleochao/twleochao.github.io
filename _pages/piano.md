@@ -5,20 +5,31 @@ title: "Favorite Recordings"
 author_profile: true
 ---
 
-These are some of my favorite recordings for solo and concerto pieces, in no particular order.
+These are some of my favorite recordings for solo and concerto pieces I've played or really enjoy, in no particular order.
 
-### Alexander Scriabin Feuillet d'album(Album Leaf) Op. 45 No. 1 in E-flat major - Played by Henrich Neuhaus
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Colki_YMhw8&list=RDColki_YMhw8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Alexander Scriabin: Feuillet d'album Op. 45 No. 1
+*Played by Heinrich Neuhaus*
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 30px;">
+  <iframe src="https://www.youtube.com/embed/Colki_YMhw8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
+</div>
 
-### Sergei Rachmaninoff Piano Sonata No. 2, Op. 36 in B-Flat Minor - Played by Vladimir Horowitz
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=-JaY0IZEy90&list=RD-JaY0IZEy90" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Rachmaninoff: Piano Sonata No. 2, Op. 36
+*Played by Vladimir Horowitz*
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 30px;">
+  <iframe src="https://www.youtube.com/embed/-JaY0IZEy90" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
+</div>
 
-### Frédéric Chopin Ballade No. 4, Op. 52 in F minor - Played by Alexei Sultanov
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=HFzvFmtsdq4&list=RDHFzvFmtsdq4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Chopin: Ballade No. 4, Op. 52
+*Played by Alexei Sultanov*
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 30px;">
+  <iframe src="https://www.youtube.com/embed/HFzvFmtsdq4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
+</div>
 
-### Frédéric Chopin Nocturne Op. 62 No. 1 in B major - Played by Kate Liu 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=UFlIvrEZ3nU&list=RDUFlIvrEZ3nU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Chopin: Nocturne Op. 62 No. 1
+*Played by Kate Liu*
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 30px;">
+  <iframe src="https://www.youtube.com/embed/UFlIvrEZ3nU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
+</div>
 
-
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/YOUR_TRACK_ID_HERE?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+### Spotify Playlist
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/YOUR_TRACK_ID?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

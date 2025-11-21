@@ -10,7 +10,6 @@ classes: wide
  .page__content {
     font-size: 0.85em !important;
   }
-  
 
   .hover-reveal {
     position: relative;
