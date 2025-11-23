@@ -1,31 +1,27 @@
 ---
 layout: single
-title: "HeadsUp: Real-Time Game Theory"
+title: "HeadsUp: Real-Time GTO Assistant"
 permalink: /projects/headsup/
-sidebar:
-  - title: "Role"
-    text: "Sole Developer"
-  - title: "Stack"
-    text: "Python, PySide6, Selenium, XGBoost, eval7"
-  - title: "Metric"
-    text: "<20ms internal latency"
+classes: wide
 ---
+**Role:** Sole Developer | **Stack:** Python, PySide6, XGBoost, Selenium | **Status:** Personal Project (July 2025 - Present)
 
-**The Challenge:** Game Theory Optimal (GTO) solvers (like PioSolver) take minutes to run. A live poker HUD needs to perceive the board, calculate equity, and render advice in under **120ms** to maintain the user's flow state.
+Poker is a game of incomplete information, typically solved by "Game Theory Optimal" (GTO) solvers. The problem is that solvers take minutes to run—useless in a live game where you have seconds to act. I built **HeadsUp** to answer an engineering question: *Can we approximate a GTO solver's intelligence in real-time without breaking the user's flow state?*
 
-## 1. Concurrency & Perception
-To meet the latency budget, I decoupled perception from rendering.
-* **Perception:** Uses a **Selenium-based API** polling mechanism to scrape live game state data.
-* **Threading Model:** I utilized **PySide6 (Qt)** with a multi-threaded architecture. The UI overlay runs on a separate thread from the calculation logic, ensuring the HUD remains responsive even during data spikes.
-* **Result:** Achieved an internal processing latency of **< 20ms**, well within the perceivable threshold.
+<figure>
+  <img src="/assets/images/headsup-demo.gif" alt="HeadsUp Poker Overlay Demo">
+  <figcaption>Figure 1: The HeadsUp overlay acts as an augmented reality layer, functioning with <20ms internal latency.</figcaption>
+</figure>
 
-## 2. "GTO-Lite": Model Distillation
-Since running a solver in real-time is impossible, I trained a lightweight approximation model.
-* **Data Generation:** I built a custom oracle using **eval7** (a poker equity calculator) to simulate **50,000+ hands**, labeling each with the perfect GTO decision.
-* **The Model:** Trained an **XGBoost** classifier on this dataset to approximate the solver's logic.
-* **Performance:** The model achieved **95.6% test accuracy** on validation data, effectively "compressing" complex game theory into a millisecond-inference engine.
+## The Constraint: 120ms Latency Budget
+To feel "instant," an interface must respond in under ~100-120ms. This gave me a strict budget for the entire pipeline: perceiving the cards, calculating the odds, and rendering the advice.
 
-## 3. Action-Inference Engine
-To measure the tool's utility, I built an evaluation loop.
-* **Logging:** The system logs "Hero" decisions vs. "GTO" advice to a local SQLite database.
-* **Analysis:** Post-session Pandas scripts generate "Error Slices," identifying specific scenarios (e.g., "Out of Position vs. Aggressor") where human intuition diverged from the model's optimal strategy.
+I initially tried using OCR to read the screen, but it was CPU-intensive and prone to lighting errors. I switched to a **Selenium-based polling architecture** that hooks directly into the game client's DOM. To ensure the UI never froze during a network poll, I architected the app using **PySide6 (Qt) with a multi-threaded worker pattern**, keeping the rendering thread locked at 60fps.
+
+## The Model: "GTO-Lite" Distillation
+Since I couldn't run a heavy solver live, I used **Model Distillation**. I wrote scripts using `eval7` to simulate **50,000+ poker hands**, calculating the perfect mathematical play for each.
+
+I then trained a lightweight **XGBoost classifier** on this dataset. The result was a model that mimics the solver with **95.6% accuracy** on validation data, but runs inference in microseconds rather than minutes.
+
+## Outcome
+The final system achieves an internal processing latency of **< 20ms**. It effectively acts as a real-time decision support system, proving that complex game theory can be made accessible through efficient systems design.

@@ -2,8 +2,9 @@
 layout: single
 title: "UCI ARCALA Research Lab"
 permalink: /projects/arcala/
+classes: wide
 ---
-***Role:** Lead Engineer & Researcher | **Stack:** Next.js, PyTorch (BERT), Vercel AI SDK | **Status:** Paper in Revision (ITiCSE 2026)*
+**Role:** Undergraduate Researcher | **Stack:** Next.js, PyTorch (BERT), Vercel AI SDK | **Status:** Paper in Revision (ITiCSE 2026)
 
 Our research lab under Prof. Thomas Yeh tackles the following question: "As Large Language Models and other AI assistants enter the classroom, how can we measure the amount of students' thinking that is  being "offloaded" to the model? 
 
@@ -18,10 +19,14 @@ We developed a custom LLM chatbot that uses various "response speed" and style t
 Unlike a standard chatbot, iGPT was instrumented to capture interaction metadata in real-time. We deployed this to 234 students across CS0/CS1 courses, collecting a dataset of **8,076 interactions**.
 
 ## The Methodology: Bloom's Taxonomy Classification
-We needed a way to classify the chat-bloom level of every prompt (e.g., is the student asking "Remind me of the syntax" or "Complete this assignment"?). 
+After gathering the data we had to tclassify the chat-bloom level of every prompt (e.g., is the student asking "Remind me of the syntax" or "Complete this assignment"?). 
 
 We had multiple lab members manually classify logs, developing strategies and guidelines so we achived interrater reliability of >70%. 
 Then with BERT-Large and DistilBERT models trained on our manually labeled "ground truth" dataset, our final ensemble model achieved 85-90% accuracy, allowing us to visualize the "cognitive trajectory" of students and models over entire quarters. 
 
 ## Key Finding
 We discovered that "system design" dictates behavior. When we tweaked the AI to withhold direct answers (a "Redirect" strategy), we saw a measurable shift in student prompting from "Recall" (low effort) to "Analyze" (high effort). This suggests that "cognitive offloading" can be impacted by model design choice. 
+
+### Manuscripts & Outcomes
+* **Ganesh, S., Yeh, T., Chao, L., et al.** "Chat-Bloom Taxonomy: Reimagining Bloom's to Empirically Evaluate Human-LLM Interactions." *In revision for ITiCSE 2026 (Previously submitted to Koli Calling '25).*
+* **Park, H., Ganesh, S., Chinnaswamy, V., Chao, L., et al.** "PREVAIL: Predictive Replay-based Evaluation of AI’s Impact on Learning." *In revision for ICER 2026 (Previously submitted to EAAI-26).*
