@@ -1,8 +1,9 @@
 ---
 layout: single
-title: "UCI ARACLA Research Lab"
+title: "UCI ARCALA Research Lab"
 permalink: /projects/arcala/
 ---
+***Role:** Lead Engineer & Researcher | **Stack:** Next.js, PyTorch (BERT), Vercel AI SDK | **Status:** Paper in Revision (ITiCSE 2026)*
 
 Our research lab under Prof. Thomas Yeh tackles the following question: "As Large Language Models and other AI assistants enter the classroom, how can we measure the amount of students' thinking that is  being "offloaded" to the model? 
 
