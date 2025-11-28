@@ -4,7 +4,7 @@ title: "PDFim: Adaptive Terminal Reader"
 permalink: /projects/pdfim/
 classes: wide
 ---
-**Role:** Sole Developer | **Stack:** Python, curses, PyMuPDF | **Status:** Personal Project (Jan 2025)
+**Role:** Sole Developer | **Stack:** Python, curses, PyMuPDF | **Time:** Janurary 2025
 
 Reading, gathering information, and citing multi-column academic papers on standard pdf viewers can be a hassle with manual highlighting and copying. I built **PDFim** to make reading papers fast and familiar for terminal users that enjoy vim-like shortcuts. 
 

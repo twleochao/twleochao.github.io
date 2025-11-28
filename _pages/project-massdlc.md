@@ -4,7 +4,7 @@ title: "Acer: Multi-Agent SDLC Automation"
 permalink: /projects/massdlc/
 classes: wide
 ---
-**Role:** SWE Intern (Acer AI Cloud) | **Stack:** Google Vertex AI, Agent Dev Kit (ADK), LangGraph, Google Cloud | **Status:** Intern Project (Summer 2025)
+**Role:** SWE Intern (Acer AI Cloud) | **Stack:** Google Vertex AI, Agent Dev Kit (ADK), LangGraph, Google Cloud | **Time:** June 2025 - August 2025 
 
 Generative AI can write code, but it often lacks the state management required for enterprise workflows. During my internship at Acer's AI Cloud team, I designed a **Human-in-the-Loop (HITL)** multi-agent system to automate the Software Development Life Cycle (SDLC).
 

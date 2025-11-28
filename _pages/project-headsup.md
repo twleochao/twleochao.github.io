@@ -4,7 +4,7 @@ title: "HeadsUp: Real-Time GTO Assistant"
 permalink: /projects/headsup/
 classes: wide
 ---
-**Role:** Sole Developer | **Stack:** Python, PySide6, XGBoost, Selenium | **Status:** Personal Project (July 2025 - Present)
+**Role:** Sole Developer | **Stack:** Python, PySide6, XGBoost, Selenium | **Time:** July 2025 - Present 
 
 Poker is a game of incomplete information, typically solved by "Game Theory Optimal" (GTO) solvers. However, for solveres take a while to generate outcome for specific scenarios, useful for post-game practice but not helpful for live game advice. I built **HeadsUp** to solve this problem: *Can we build an assistant that leverages GTO solver's intelligence while also updating information in real-time?* 
 
