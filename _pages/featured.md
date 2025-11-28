@@ -16,7 +16,7 @@ feature_row:
   - icon: "fas fa-network-wired"
     alt: "MAS SDLC"
     title: "Acer: MAS SDLC"
-    excerpt: "Automating software development lifecycles with controllable multi-agent system."
+    excerpt: "Automating software development lifecycle with multi-agent systems."
     url: "/projects/massdlc/"
     btn_label: "View Project"
     btn_class: "btn--primary"

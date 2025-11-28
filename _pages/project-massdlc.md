@@ -6,7 +6,7 @@ classes: wide
 ---
 **Role:** SWE Intern (Acer AI Cloud) | **Stack:** Google Vertex AI, Agent Dev Kit (ADK), LangGraph, Firestore | **Status:** Intern Project (Summer 2025)
 
-Generative AI can write code, but it often lacks the state management required for enterprise workflows. During my internship at Acer's AI Cloud team, I architected a **Human-in-the-Loop (HITL)** multi-agent system to automate the Software Development Life Cycle (SDLC).
+Generative AI can write code, but it often lacks the state management required for enterprise workflows. During my internship at Acer's AI Cloud team, I designed a **Human-in-the-Loop (HITL)** multi-agent system to automate the Software Development Life Cycle (SDLC).
 
 <figure>
   <img src="/assets/images/acer-architecture.png" alt="Multi-Agent System Architecture">
@@ -14,12 +14,12 @@ Generative AI can write code, but it often lacks the state management required f
 </figure>
 
 ## The Architecture: Orchestration
-The system needed to decompose a raw Software Requirement Specification (SRS) into executable artifacts. I initially prototyped this in LangGraph but migrated to **Google's Agent Development Kit (ADK)** to leverage robust memory management.
+The system would first converse with the user to get a good understanding of their idea, requirements, preferred tech stack etc. It then started the entire SDLC, creating Software Requirement Specification (SRS), High-Level Design (HLD) diagrams, code, testcases etc. I initially prototyped this in LangGraph but migrated to **Google's Agent Development Kit (ADK)** to leverage GCP's tools and memory management.
 
-The final system orchestrates **10+ dynamic subtasks**, ranging from SRS-to-Architecture translation to API stub generation. We tightly coupled this with **6 GCP services**, using **Firestore** to maintain persistent agent state and Cloud Storage for artifact management.
+The final system orchestrates 10+ dynamic subtasks, ranging from SRS to architecture diagram translation to API stub generation. We tightly coupled this with **6 GCP services**, using Firestore to maintain persistent agent state and Cloud Storage for artifact management.
 
 ## The "Controllability" Problem
-To prevent the agents from hallucinating or going off-rails, I enforced strict observability patterns. I built **State Guardrails** that prevent the system from transitioning between critical phases (e.g., Architecture $\to$ Code) without explicit human approval. Every tool call is serialized to Firestore, creating a traceable audit log of *why* a decision was made.
+To prevent the agents from hallucinating or going off-rails, I enforced strict observability patterns. I built guardrails that prevent the system from transitioning between critical phases (e.g., SRS to HLD) without explicit human approval. Every tool call is serialized to Firestore, creating a traceable audit log of why and what decision was made.
 
 ## Outcome
-We containerized the system for the internal Google Agentspace. In a controlled one-week evaluation, the system reduced manual implementation time by **35%** compared to the team's baseline sprint velocity.
+We containerized the system for our internal Google Agentspace. In a controlled one-week evaluation, the system reduced manual implementation time by **35%** compared to the team's baseline sprint time.
