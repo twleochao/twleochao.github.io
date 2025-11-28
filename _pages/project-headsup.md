@@ -6,7 +6,7 @@ classes: wide
 ---
 **Role:** Sole Developer | **Stack:** Python, PySide6, XGBoost, Selenium | **Status:** Personal Project (July 2025 - Present)
 
-Poker is a game of incomplete information, typically solved by "Game Theory Optimal" (GTO) solvers. The problem is that solvers take minutes to run—useless in a live game where you have seconds to act. I built **HeadsUp** to answer an engineering question: *Can we approximate a GTO solver's intelligence in real-time without breaking the user's flow state?*
+Poker is a game of incomplete information, typically solved by "Game Theory Optimal" (GTO) solvers. However, for solveres take a while to generate outcome for specific scenarios, useful for post-game practice but not helpful for live game advice. I built **HeadsUp** to solve this problem: *Can we build an assistant that leverages GTO solver's intelligence while also updating information in real-time?* 
 
 <figure>
   <img src="/assets/images/headsup-demo.gif" alt="HeadsUp Poker Overlay Demo">
