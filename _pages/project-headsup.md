@@ -14,7 +14,8 @@ Poker is a game of incomplete information, typically solved by "Game Theory Opti
 Figure 1: The HeadsUp display acts as a transparent overlay directly on the game window. In this demo, I intentionally deviate from the suggested actions to showcase the engine's real-time state updates.
 * Pre-Flop: The engine recommended a standard 3BB raise from UTG+2 with suited connectors. I executed a min-raise.
 * Post-Flop: On a low-equity board, the engine correctly identified a negative-EV scenario and advised folding. I checked to extend the state machine's active duration before folding to the opponent's raise.
-*Note: The engine projects the Game Theory Optimal (GTO) trajectory for the current turn's highest EV strategy (e.g., folding strategies) over default actions like free checks."</figcaption>
+Note: The engine projects the Game Theory Optimal (GTO) trajectory for the current turn's highest EV strategy (e.g., folding strategies) over default actions like free checks."
+  </figcaption>
 </figure>
 
 ## The Constraint: Low Latency Budget
