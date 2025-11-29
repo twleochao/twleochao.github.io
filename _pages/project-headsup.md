@@ -9,12 +9,12 @@ classes: wide
 Poker is a game of incomplete information, typically solved by "Game Theory Optimal" (GTO) solvers. However, for solveres take a while to generate outcome for specific scenarios, useful for post-game practice but not helpful for live game advice. I built **HeadsUp** to solve this problem: *Can we build an assistant that leverages GTO solver's intelligence while also updating information in real-time?* 
 
 <figure>
-  <img src="/assets/images/headsup-demo.gif" alt="HeadsUp Poker Overlay Demo">
+  <img src="/assets/images/headsup_demo.gif" alt="HeadsUp Poker Overlay Demo">
   <figcaption markdown="1">
 Figure 1: The HeadsUp display acts as a transparent overlay directly on the game window. In this demo, I intentionally deviate from the suggested actions to showcase the engine's real-time state updates.
 
 * Pre-Flop:The engine recommended a standard 3BB raise from UTG+2 with suited connectors. I executed a min-raise.
-* Post-Flop: On a low-equity board, the engine correctly identified a negative-EV scenario and advised folding. I checked to extend the state machine's active duration before folding to the opponent's raise.
+* Post-Flop: On a low-equity board, the engine correctly identified a negative-EV scenario and advised folding. I checked to showcase the state machine's active duration before folding to the opponent's raise.
 
 *Note: The engine projects the Game Theory Optimal (GTO) trajectory for the current turn's highest EV strategy (e.g., folding strategies) over default actions like free checks.*
   </figcaption>
