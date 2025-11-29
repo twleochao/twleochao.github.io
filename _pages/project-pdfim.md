@@ -9,7 +9,7 @@ classes: wide
 Reading, gathering information, and citing multi-column academic papers on standard pdf viewers can be a hassle with manual highlighting and copying. I built **PDFim** to make reading papers fast and familiar for terminal users that enjoy vim-like shortcuts. 
 
 <figure>
-  <img src="/assets/images/PDFim-demo.gif" alt="PDFim Terminal Reader Demo">
+  <img src="/assets/images/PDFim_demo.gif" alt="PDFim Terminal Reader Demo">
   <figcaption>Figure 1: PDFim loading a paper, and navigating through the paper, copying lines, creating citations, all using keyboard shortcuts. </figcaption>
 </figure>
 
