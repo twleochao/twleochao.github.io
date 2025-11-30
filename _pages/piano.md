@@ -28,7 +28,7 @@ These are some of my favorite recordings of solo piano and other classical piece
 ### Nikolai Medtner Piano Sonata No. 1, Op. 5 in F minor
 *Played by Boris Berezovsky*
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 30px;">
-  <iframe src="https://www.youtube.com/watch?v=SMMa964Z2rk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/SMMa964Z2rk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ### Gustav Mahler Symphony No. 5 in C-sharp minor
@@ -58,17 +58,17 @@ These are some of my favorite recordings of solo piano and other classical piece
 ### Sergei Prokofiev Piano Concerto No. 2, Op. 16 in G minor
 *Played by Vladimir Ashkenazy with the Moscow Philharmonic Orchestra, Conducted by Kirill Kondrashin*
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 30px;">
-  <iframe src="https://www.youtube.com/watch?v=ZmdBsWpcvmY&list=RDZmdBsWpcvmY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/ZmdBsWpcvmY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ### J.S. Bach Partita for Keyboard No. 1 (BWV 825) in B flat major
 *Played by Dinu Lipatti*
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 30px;">
-  <iframe src="https://www.youtube.com/watch?v=ABz2uj-xg9o&list=RDABz2uj-xg9o" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/ABz2uj-xg9o" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ### Sergei Rachmaninoff Cello Sonata, Op. 19 in G minor
 *Played by Viacheslav Poprugin and Natalia Gutman*
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-bottom: 30px;">
-  <iframe src="https://www.youtube.com/watch?v=POPZ7_IXckg&list=RDPOPZ7_IXckg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/POPZ7_IXckg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" allowfullscreen></iframe>
 </div>
