@@ -8,7 +8,7 @@ feature_row:
   - icon: "fas fa-brain"
     alt: "ARCALA Lab"
     title: "ARCALA Lab"
-    excerpt: "Explroring frameworks to measure and reverse cognitive offloading in AI-assisted learning."
+    excerpt: "Exploring frameworks to measure and reverse cognitive offloading in AI-assisted learning."
     url: "/projects/arcala/"
     btn_label: "View Research"
     btn_class: "btn--primary"

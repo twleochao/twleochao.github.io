@@ -4,7 +4,7 @@ title: "PDFim: Adaptive Terminal Reader"
 permalink: /projects/pdfim/
 classes: wide
 ---
-**Role:** Sole Developer | **Stack:** Python, curses, PyMuPDF | **Time:** Janurary 2025
+**Role:** Sole Developer | **Stack:** Python, curses, PyMuPDF | **Time:** January 2025
 
 Reading, gathering information, and citing multi-column academic papers on standard pdf viewers can be a hassle with manual highlighting and copying. I built **PDFim** to make reading papers fast and familiar for terminal users that enjoy vim-like shortcuts. 
 
@@ -22,4 +22,4 @@ I built a custom adaptive layout engine using PyMuPDF. It extracts text block co
 I wanted the workflow with PDFim to fit into a terminal developer, i.e. using the keyboard as much as possible. I implemented standard Vim navigation (`j/k`, `G`, `/` search) using the curses ibrary. I also added a visual selection mode for copying citations directly to the system clipboard.
 
 ## Outcome
-By not requiring GUI rendeding, PDFim uses 30% less memory than standard PDF viewers. The shortcuts with zero-latency scrolling enables a very efficient workflow for researchers.
+By not requiring GUI rendering , PDFim uses 30% less memory than standard PDF viewers. The shortcuts with zero-latency scrolling enables a very efficient workflow for researchers.

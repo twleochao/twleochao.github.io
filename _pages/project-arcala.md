@@ -4,7 +4,7 @@ title: "UCI ARCALA Research Lab"
 permalink: /projects/arcala/
 classes: wide
 ---
-**Role:** Undergraduate Researcher | **Stack:** Next.js, Vercel AI SDK, PyTorch (BERT) | **Time:** Janurary 2025 - Present 
+**Role:** Undergraduate Researcher | **Stack:** Next.js, Vercel AI SDK, PyTorch (BERT) | **Time:** January 2025 - Present 
 
 Our research lab under Prof. Thomas Yeh tackles the following question: "As Large Language Models and other AI assistants enter the classroom, how can we measure the amount of students' thinking that is  being "offloaded" to the model? 
 
@@ -19,9 +19,9 @@ We developed a custom LLM chatbot that uses various "response speed" and style t
 Unlike a standard chatbot, iGPT was instrumented to capture interaction metadata in real-time. We deployed this to 234 students across CS0/CS1 courses, collecting a dataset of **8,076 interactions**. We are continuing this experiment this Fall '25 quarter.
 
 ## The Methodology: Bloom's Taxonomy Classification
-After gathering the data we had to tclassify the chat-bloom level of every prompt (e.g., is the student asking "Remind me of the syntax" or "Complete this assignment"?). 
+After gathering the data we had to classify the chat-bloom level of every prompt (e.g., is the student asking "Remind me of the syntax" or "Complete this assignment"?). 
 
-We had multiple lab members manually classify logs, developing strategies and guidelines so we achived interrater reliability of >70%. 
+We had multiple lab members manually classify logs, developing strategies and guidelines so we achieved interrater reliability of >70%. 
 Then with BERT-Large and DistilBERT models trained on our manually labeled "ground truth" dataset, our final ensemble model achieved 85-90% accuracy, allowing us to visualize the "cognitive trajectory" of students and models over entire quarters. 
 
 ## Key Finding

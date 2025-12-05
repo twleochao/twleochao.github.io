@@ -53,7 +53,7 @@ I'm Leo, a senior at **University of California, Irvine** majoring in Computer S
 
 My research interests and work lie at the intersection between **Artificial Intelligence and Human Agency**. While modern generative tools are powerful, they often lack precise control and reliability for complex workflows. I'm passionate about bridging the gap between powerful generative tools and real-world usability.
 
-Whether it's through researching cognitive offloading on LLMs (at **ARACLA LAB**) or building multi-agent software development assistants (at **Acer**), my goal is to develop tools that empower rather than replace humans. 
+Whether it's through researching cognitive offloading on LLMs (at **ARCALA LAB**) or building multi-agent software development assistants (at **Acer**), my goal is to develop tools that empower rather than replace humans. 
 
 ## Leadership & Community 
 
