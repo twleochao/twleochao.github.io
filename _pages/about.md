@@ -59,7 +59,7 @@ Whether it's through researching cognitive offloading on LLMs (at **ARCALA LAB**
 
 Beyond work and academia, I'm also involved in cultural and educational communities. I believe software systems are most effective when built with empathy for the user.
 
-I founded the **Taiwanese Programming Outreach Association** <span class="hover-reveal">(TPOA)<span class="hidden-content"><img src="/assets/images/tpoa.jpg" alt="TPOA">our team at our first post-COVID workshop with Dashe Junior High</span></span>, where we partnered with the Education Bureau to bring digital literacy to rural Taiwan, integrating CS curriculums into 10+ local schools. At UCI, I continued this focus on community building with the **Taiwanese Student Association**, managing resources for over 20 annually.
+I founded the **Taiwanese Programming Outreach Association** <span class="hover-reveal">(TPOA)<span class="hidden-content"><img src="/assets/images/tpoa.jpg" alt="TPOA">our team at our first post-COVID workshop with Dashe Junior High</span></span>, where we partnered with the Education Bureau to bring digital literacy to rural Taiwan, integrating CS curriculums into 10+ local schools. At UCI, I continued this focus on community building with the **Taiwanese Student Association**, managing resources for over 20 events annually.
 
 ## Beyond the Lab
 
