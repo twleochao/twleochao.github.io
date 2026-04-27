@@ -8,7 +8,7 @@ feature_row:
   - icon: "fas fa-brain"
     alt: "ARCALA Lab"
     title: "ARCALA Lab"
-    excerpt: "Exploring frameworks to measure and reverse cognitive offloading in AI-assisted learning."
+    excerpt: "LLM evaluation methodology, transformer classifier training, and eval harness design."
     url: "/projects/arcala/"
     btn_label: "View Research"
     btn_class: "btn--primary"
@@ -74,7 +74,7 @@ feature_row:
 </style>
 
 <p style="font-size: 1.0em; color: #bbb; margin-top: 30px; margin-bottom: 40px;">
-  Here's a collection of research, industry, and personal engineering/design projects I've worked on that emphasize human agency in software systems.
+  Research, industry, and engineering projects focused on LLM evaluation, multi-agent systems, and ML systems.
 </p>
 
 {% include feature_row.html%}
