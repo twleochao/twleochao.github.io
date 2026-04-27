@@ -51,7 +51,7 @@ classes: wide
 
 I'm Leo, a graduating senior at **University of California, Irvine** majoring in Computer Science (Intelligent Systems), incoming MSCS at **UC San Diego** (Fall 2026).
 
-I build and evaluate LLM systems. My work spans LLM evaluation methodology, transformer classifier training, and multi-agent systems — at **ARCALA Lab** (UCI) and **Acer**.
+I build and evaluate LLM systems. My work spans LLM evaluation methodology, transformer classifier training, and multi-agent systems, at **ARCALA Lab** (UCI) and **Acer**.
 
 At UCSD, I plan to focus on LLM evaluation, ML systems, and agent design.
 
