@@ -13,6 +13,11 @@ We treated the pre-trained Gemma-3-1b model as a fixed computation graph and use
 
 The core formula: x' = x + a * d_feature, where a is the steering coefficient and d_feature is the target SAE direction vector.
 
+<figure>
+  <img src="/assets/images/activation-steering-pipeline.jpg" alt="End-to-end pipeline diagram">
+  <figcaption>Figure 1: End-to-end pipeline covering feature discovery, mechanistic intervention, and evaluation.</figcaption>
+</figure>
+
 ## Feature Discovery Pipeline
 Finding the right feature vectors was the harder problem. For sentiment, we queried Neuronpedia's activation extraction API with polarized seed prompts, retrieved the top 800 activated Gemma-Scope SAE features, then ranked them by AUC for positive vs. negative label separation on the SST-2 validation set.
 
@@ -30,6 +35,11 @@ Coherence was tracked across all conditions using a normalized 0.0-1.0 scoring r
 Single-feature injections failed to produce statistically significant semantic shifts on sentiment (margin of error: 0.053), but multi-feature steering aggregating the top 3 candidates achieved a 4x amplification effect (delta = 0.190). SAE interventions on TruthfulQA produced statistically significant truthfulness improvements, while standard prompting did not.
 
 We also found that SAE steering causes far less instruction leakage than preprompting. Prompted baselines generated meta-vocabulary artifacts with frequency deltas over 300, while SAE-steered conditions showed negligible topic drift.
+
+<figure>
+  <img src="/assets/images/activation-steering-results.jpg" alt="TruthfulQA efficacy results">
+  <figcaption>Figure 2: Truthfulness efficacy and coherence metrics across mechanistic intervention conditions (TruthfulQA, N=817).</figcaption>
+</figure>
 
 ## Stack Notes
 Built on TransformerLens and SAELens for residual stream access, Neuronpedia API for feature extraction, and the OpenAI API for automated evaluation at scale.
