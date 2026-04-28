@@ -20,6 +20,14 @@ feature_row:
     url: "/projects/massdlc/"
     btn_label: "View Project"
     btn_class: "btn--primary"
+
+  - icon: "fas fa-flask"
+    alt: "LLM Activation Steering"
+    title: "LLM Activation Steering"
+    excerpt: "Inference-time SAE feature injection into Gemma's residual stream for sentiment and truthfulness steering, with LLM-as-a-Judge evaluation."
+    url: "/projects/activation-steering/"
+    btn_label: "View Project"
+    btn_class: "btn--primary"
     
   - icon: "fas fa-diamond"
     alt: "HeadsUp"

@@ -4,29 +4,29 @@ title: "UCI ARCALA Research Lab"
 permalink: /projects/arcala/
 classes: wide
 ---
-**Role:** Undergraduate Researcher | **Stack:** Next.js, Vercel AI SDK, PyTorch (BERT) | **Time:** January 2025 - Present 
 
-Our research lab under Prof. Thomas Yeh tackles the following question: "As Large Language Models and other AI assistants enter the classroom, how can we measure the amount of students' thinking that is  being "offloaded" to the model? 
+**Role:** Undergraduate Researcher | **Stack:** PyTorch, HuggingFace Transformers (BERT/DistilBERT), Next.js, Vercel AI SDK | **Time:** January 2025 - Present
 
-Our work at ARCALA Lab aims to building the **observability framework** for this level of offloading, and discover ways to reduce this offloading so LLMs can be used in beneficial ways. 
+Research at ARCALA Lab under Prof. Thomas Yeh, focused on LLM evaluation methodology and automated interaction classification in deployed LLM systems.
+
 <figure>
   <img src="/assets/images/chat-bloom-diagram.jpg" alt="The Chat-Bloom Taxonomy Diagram">
-  <figcaption>Figure 1: The Chat-Bloom framework used to classify student/assistant interaction intent, ranging from onloading "Redirect" to low-effort "Remember" to high-effort "Create".</figcaption>
+  <figcaption>Figure 1: The Chat-Bloom framework used to classify interaction intent in human-LLM logs.</figcaption>
 </figure>
 
-## The Instrument: iGPT
-We developed a custom LLM chatbot that uses various "response speed" and style to measure how students would react differently. It's called **iGPT**, a custom chat interface using **Next.js and the Vercel AI SDK**. 
-Unlike a standard chatbot, iGPT was instrumented to capture interaction metadata in real-time. We deployed this to 234 students across CS0/CS1 courses, collecting a dataset of **8,076 interactions**. We are continuing this experiment this Fall '25 quarter.
+## The Deployment: iGPT
+We built and deployed **iGPT**, a custom LLM chatbot instrumented to capture interaction metadata in real-time, across CS0/CS1 courses with 234 students — collecting a dataset of **8,076 interaction logs**.
 
-## The Methodology: Bloom's Taxonomy Classification
-After gathering the data we had to classify the chat-bloom level of every prompt (e.g., is the student asking "Remind me of the syntax" or "Complete this assignment"?). 
+## The Evaluation Framework: Chat-Bloom
+We designed **Chat-Bloom**, an LLM evaluation taxonomy derived from Bloom's taxonomy, to classify behavioral shifts in human-LLM interaction logs — measuring the cognitive effort level delegated per user turn.
 
-We had multiple lab members manually classify logs, developing strategies and guidelines so we achieved interrater reliability of >70%. 
-Then with BERT-Large and DistilBERT models trained on our manually labeled "ground truth" dataset, our final ensemble model achieved 85-90% accuracy, allowing us to visualize the "cognitive trajectory" of students and models over entire quarters. 
+To automate classification at scale, I trained **BERT-Large and DistilBERT** ensemble classifiers on a manually labeled ground-truth dataset (75.9% inter-rater reliability), achieving **~90% accuracy**, enabling systematic analysis of LLM-assisted workflow patterns across entire quarters.
 
-## Key Finding
-We discovered that "system design" dictates behavior. When we tweaked the AI to withhold direct answers (a "Redirect" strategy), we saw a measurable shift in student prompting from "Create" (high offloading) to "Remember"/"Understand (low offloading). This suggests that "cognitive offloading" can be impacted by model design choice. 
+## Eval Harness: PREVAIL
+I built **PREVAIL**, a predictive-replay evaluation harness to measure next-turn behavioral shift in LLM-assisted workflows, testing how different model design choices affect downstream interaction patterns.
 
-### Manuscripts & Outcomes
-* **Ganesh, S., Yeh, T., Chao, L., et al.** "Chat-Bloom Taxonomy: Reimagining Bloom's to Empirically Evaluate Human-LLM Interactions." *In revision for ITiCSE 2026 (Previously submitted to Koli Calling '25).*
-* **Park, H., Ganesh, S., Chinnaswamy, V., Chao, L., et al.** "PREVAIL: Predictive Replay-based Evaluation of AI’s Impact on Learning." *In revision for ICER 2026 (Previously submitted to EAAI-26).*
+## Current Work
+Leading an LLM-as-a-Judge classification pipeline using OpenAI models for automated Chat-Bloom taxonomy labeling, benchmarking against the trained BERT baseline.
+
+### Manuscripts
+* **Chao, L., et al.** "Chat-Bloom: A Taxonomy for Classifying Cognitive Offloading in Student-AI Interactions in CS Education." *(Revision in progress; target resubmission May 2026)*
