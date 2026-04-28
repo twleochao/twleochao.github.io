@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Leo (Yi-Ting) Chao"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "CS & AI @ UCI<br>Researcher @ ARCALA Lab<br>Ex-SWE @ Acer"
+  bio    : "Incoming MSCS @ UCSD<br>Researcher @ ARCALA Lab<br>AI Systems Intern @ Acer"
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"

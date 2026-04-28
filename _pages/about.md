@@ -49,22 +49,12 @@ classes: wide
   }
 </style>
 
-I'm Leo, a senior at **University of California, Irvine** majoring in Computer Science with a specialization in Intelligent Systems. 
+I'm Leo, a graduating senior at **University of California, Irvine** majoring in Computer Science (Intelligent Systems), incoming MSCS at **UC San Diego** (Fall 2026).
 
-My research interests and work lie at the intersection between **Artificial Intelligence and Human Agency**. While modern generative tools are powerful, they often lack precise control and reliability for complex workflows. I'm passionate about bridging the gap between powerful generative tools and real-world usability.
+I build and evaluate LLM systems. My work spans LLM evaluation methodology, transformer classifier training, and multi-agent systems, at **ARCALA Lab** (UCI) and **Acer**.
 
-Whether it's through researching cognitive offloading on LLMs (at **ARCALA LAB**) or building multi-agent software development assistants (at **Acer**), my goal is to develop tools that empower rather than replace humans. 
-
-## Leadership & Community 
-
-Beyond work and academia, I'm also involved in cultural and educational communities. I believe software systems are most effective when built with empathy for the user.
-
-I founded the **Taiwanese Programming Outreach Association** <span class="hover-reveal">(TPOA)<span class="hidden-content"><img src="/assets/images/tpoa.jpg" alt="TPOA">our team at our first post-COVID workshop with Dashe Junior High</span></span>, where we partnered with the Education Bureau to bring digital literacy to rural Taiwan, integrating CS curriculums into 10+ local schools. At UCI, I continued this focus on community building with the **Taiwanese Student Association**, managing resources for over 20 events annually.
+At UCSD, I plan to focus on LLM evaluation, ML systems, and agent design.
 
 ## Beyond the Lab
 
-When I'm not in the lab or school, I also enjoy a variety of other more creative and physical activities that often subtly intersect with the technicality of my work.
-
-I've been playing classical piano since I was a kid. I find the discipline to practice transfers well into programming. If you're not familiar with classical music, **[here](/piano/)** is a list of some of my favorite pieces and recordings of all time.
-
-I also enjoying the intricacies of various <span class="hover-reveal">origami<span class="hidden-content"><img src="/assets/images/tinycrane.jpg" alt="Origami Crane">a ~1cm^3 paper crane I made (this is the inspiration for the site's theme)</span></span> designs. My other interests include pour-over coffee, poker, and skiing, all of which demand their own distinct blend of precision, logic, and intuition. 
+I've been playing classical **[piano](/piano/)** since I was a kid. I also enjoy <span class="hover-reveal">origami<span class="hidden-content"><img src="/assets/images/tinycrane.jpg" alt="Origami Crane">a ~1cm^3 paper crane I made (this is the inspiration for the site's theme)</span></span>, pour-over coffee, and poker. All of which demand their own blend of precision and intuition.
