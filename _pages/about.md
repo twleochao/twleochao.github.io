@@ -13,11 +13,11 @@ classes: wide
 
   .hover-reveal {
     position: relative;
-    color: #48c774;
+    color: #8AA391;
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
-    border-bottom: 1px dashed #48c774;
+    border-bottom: 1px dashed #8AA391;
   }
 
   .hover-reveal .hidden-content {
@@ -28,7 +28,7 @@ classes: wide
     transform: translateX(-50%);
     width: 220px;
     background: #252a34;
-    border: 1px solid #48c774;
+    border: 1px solid #8AA391;
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.5);
