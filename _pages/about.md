@@ -51,10 +51,10 @@ classes: wide
 
 I'm Leo, a Computer Science (Intelligent Systems) graduate of **University of California, Irvine**, incoming MSCS at **UC San Diego** (Fall 2026).
 
-My focus is **mechanistic interpretability** of language models — I work with sparse autoencoders and TransformerLens at the **McAuley Lab** (UCSD) on interpreting music LLMs. Alongside that, I study **LLM evaluation methodology** at **ARCALA Lab** (UCI), where I co-developed Chat-Bloom and trained transformer classifiers for automated interaction labeling, and I've built production LLM systems — most recently a product-existence classifier with a labeled eval harness during my internship at Mooov.
+I mostly work on **mechanistic interpretability**. At the **McAuley Lab** (UCSD) I use sparse autoencoders and TransformerLens to study the internals of music LLMs. My other main area is **LLM evaluation**. At **ARCALA Lab** (UCI) I co-developed Chat-Bloom and trained transformer classifiers to label student-AI interactions automatically. I also build LLM systems. I recently interned at Mooov and wrote a product-existence classifier with its own eval harness.
 
 At UCSD I plan to focus on mechanistic interpretability, LLM evaluation, and ML systems.
 
 ## Beyond the Lab
 
-I've played classical **[piano](/piano/)** since I was a kid — a shared love of music is actually what sparked my current interpretability collaboration at the McAuley Lab. I also fold <span class="hover-reveal">origami<span class="hidden-content"><img src="/assets/images/tinycrane.jpg" alt="Origami Crane">a ~1cm^3 paper crane I made (the inspiration for this site's theme)</span></span>, which is where this site's crane motif comes from.
+I've been playing classical **[piano](/piano/)** since I was a kid. I also enjoy <span class="hover-reveal">origami<span class="hidden-content"><img src="/assets/images/tinycrane.jpg" alt="Origami Crane">a ~1cm^3 paper crane I made (the inspiration for this site's theme)</span></span>, pour-over coffee, and poker.

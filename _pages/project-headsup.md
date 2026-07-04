@@ -6,7 +6,7 @@ classes: wide
 ---
 **Role:** Sole Developer | **Stack:** Python, PySide6, XGBoost, Selenium | **Time:** July 2025 - Present 
 
-Poker is a game of incomplete information, typically solved by "Game Theory Optimal" (GTO) solvers. Those solvers take a while to generate a decision for a specific scenario — useful for post-game study, but too slow for live play. I built **HeadsUp** to answer: *can an assistant leverage a GTO solver's intelligence while updating in real time?*
+Poker is a game of incomplete information, usually solved with "Game Theory Optimal" (GTO) solvers. Those solvers are slow to compute a decision for a given spot. That works for post-game study, but it's too slow for live play. I built **HeadsUp** to get GTO-quality advice that updates in real time.
 
 <figure>
   <img src="/assets/images/headsup_demo.gif" alt="HeadsUp Poker Overlay Demo">
@@ -31,4 +31,4 @@ Since we can't run a heavy solver live, I used a process called Model Distillati
 I then trained a lightweight XGBoost classifier on this dataset. The result was a model that mimics standard GTO solvers with **95.6% accuracy** on validation data, but runs within our latency budget.
 
 ## Outcome
-The final system achieved an internal processing latency of <20ms. It effectively acts as a real-time decision support system, proving that complex game theory can be made accessible through efficient systems design.
+The final system runs at under 20ms of internal processing latency, fast enough to give GTO-based advice during a live hand.

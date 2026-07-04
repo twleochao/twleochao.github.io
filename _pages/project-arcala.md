@@ -15,10 +15,10 @@ Research at ARCALA Lab under Prof. Thomas Yeh, focused on LLM evaluation methodo
 </figure>
 
 ## The Deployment: iGPT
-We built and deployed **iGPT**, a custom LLM chatbot instrumented to capture interaction metadata in real-time, across CS0/CS1 courses with 234 students — collecting a dataset of **8,076 interaction logs**.
+We built and deployed **iGPT**, a custom LLM chatbot instrumented to capture interaction metadata in real-time, across CS0/CS1 courses with 234 students, collecting a dataset of **8,076 interaction logs**.
 
 ## The Evaluation Framework: Chat-Bloom
-We designed **Chat-Bloom**, an LLM evaluation taxonomy derived from Bloom's taxonomy, to classify behavioral shifts in human-LLM interaction logs — measuring the cognitive effort level delegated per user turn.
+We designed **Chat-Bloom**, an LLM evaluation taxonomy derived from Bloom's taxonomy, to classify behavioral shifts in human-LLM interaction logs. It measures the cognitive effort level delegated per user turn.
 
 To automate classification at scale, I trained **BERT-Large and DistilBERT** ensemble classifiers on a manually labeled ground-truth dataset (75.9% inter-rater reliability), achieving **~90% accuracy**, enabling systematic analysis of LLM-assisted workflow patterns across entire quarters.
 

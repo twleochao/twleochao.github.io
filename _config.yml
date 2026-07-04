@@ -18,7 +18,7 @@ masthead_title: " "
 logo: "/assets/images/crane-logo.png"
 email: leo.yt.chao@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Leo (Yi-Ting) Chao — research portfolio in mechanistic interpretability and LLM evaluation.
+  Leo (Yi-Ting) Chao. Research portfolio in mechanistic interpretability and LLM evaluation.
 github_username: twleochao
 minimal_mistakes_skin: dark
 

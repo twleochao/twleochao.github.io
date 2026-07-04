@@ -19,7 +19,7 @@ The main challenge was converting absolute PDF coordinates/layout into a linear 
 I built a custom adaptive layout engine using PyMuPDF. It extracts text block coordinates and statistically clusters them to detect column boundaries and headers. The system then serializes the blocks into a coherent stream which is displayed in the terminal.
 
 ## The Workflow: Keyboard Shortcuts
-I wanted PDFim to fit a terminal-centric workflow — keyboard-driven as much as possible. I implemented standard Vim navigation (`j/k`, `G`, `/` search) using the curses library, plus a visual selection mode for copying citations directly to the system clipboard.
+I wanted PDFim to work well in a terminal, driven by the keyboard as much as possible. It uses standard Vim navigation (`j/k`, `G`, `/` search) via the curses library, plus a visual selection mode for copying citations straight to the system clipboard.
 
 ## Outcome
 By not requiring GUI rendering, PDFim uses 30% less memory than standard PDF viewers, and the keyboard shortcuts with zero-latency scrolling make for an efficient reading workflow.

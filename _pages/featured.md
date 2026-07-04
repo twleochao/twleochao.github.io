@@ -81,9 +81,12 @@ feature_row:
 
 {% include feature_row.html%}
 
-<h2 style="border-top: 1px solid #444; padding-top: 25px; margin-top: 40px; color: #888; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9em;">Other Projects</h2>
+<div style="clear: both;"></div>
 
-<ul style="color: #bbb; line-height: 1.9;">
-  <li><a href="/projects/headsup/" style="color: #48c774;">HeadsUp</a> — a low-latency poker decision-support engine (XGBoost distillation of a GTO solver).</li>
-  <li><a href="/projects/pdfim/" style="color: #48c774;">PDFim</a> — an adaptive-layout terminal reader for academic papers.</li>
-</ul>
+<section style="margin-top: 40px; padding-top: 25px; border-top: 1px solid #444;">
+  <h2 style="color: #888; text-transform: uppercase; letter-spacing: 1px; font-size: 0.9em; margin-bottom: 15px;">Other Projects</h2>
+  <ul style="color: #bbb; line-height: 1.9;">
+    <li><a href="/projects/headsup/" style="color: #48c774;">HeadsUp</a>: a low-latency poker decision engine that distills a GTO solver into an XGBoost model.</li>
+    <li><a href="/projects/pdfim/" style="color: #48c774;">PDFim</a>: an adaptive-layout terminal reader for academic papers.</li>
+  </ul>
+</section>
