@@ -22,4 +22,4 @@ The final system orchestrates 10+ dynamic subtasks, ranging from SRS to architec
 To prevent the agents from hallucinating or going off-topic, I enforced strict observability attributes. I built guardrails that prevent the system from transitioning between critical phases (e.g., SRS to HLD) without explicit human approval. Every tool call is serialized to Firestore, creating a traceable audit log of why and what decision was made.
 
 ## Outcome
-We containerized the system for our internal Google Agentspace. In a controlled one-week evaluation, the system reduced manual implementation time by **35%** compared to the team's baseline sprint time.
+We containerized the system for our internal Google Agentspace. In a controlled one-week evaluation, the system reduced manual iteration time by **35%** compared to the team's baseline sprint time.

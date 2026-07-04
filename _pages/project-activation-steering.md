@@ -4,7 +4,7 @@ title: "LLM Activation Steering"
 permalink: /projects/activation-steering/
 classes: wide
 ---
-**Role:** Course Project (CS 175, UCI) | **Stack:** Python, PyTorch, TransformerLens, SAELens, HuggingFace, OpenAI API | **Time:** January 2026 - March 2026 | **Repo:** [GitHub](https://github.com/twleochao/llm-activation-steering)
+**Role:** Independent Research Project | **Stack:** Python, PyTorch, TransformerLens, SAELens, HuggingFace, OpenAI API | **Time:** January 2026 - March 2026 | **Repo:** [GitHub](https://github.com/twleochao/llm-activation-steering)
 
 A mechanistic interpretability project investigating whether we can control high-level attributes in LLMs, specifically sentiment and truthfulness, without fine-tuning or prompt engineering. We used Sparse Autoencoders (SAEs) to find and inject feature vectors directly into Gemma's residual stream at inference time.
 

@@ -5,7 +5,7 @@ permalink: /projects/arcala/
 classes: wide
 ---
 
-**Role:** Undergraduate Researcher | **Stack:** PyTorch, HuggingFace Transformers (BERT/DistilBERT), Next.js, Vercel AI SDK | **Time:** January 2025 - Present
+**Role:** Research Assistant | **Stack:** PyTorch, HuggingFace Transformers (BERT/DistilBERT), Next.js, Vercel AI SDK | **Time:** January 2025 - June 2026
 
 Research at ARCALA Lab under Prof. Thomas Yeh, focused on LLM evaluation methodology and automated interaction classification in deployed LLM systems.
 
@@ -25,8 +25,8 @@ To automate classification at scale, I trained **BERT-Large and DistilBERT** ens
 ## Eval Harness: PREVAIL
 I built **PREVAIL**, a predictive-replay evaluation harness to measure next-turn behavioral shift in LLM-assisted workflows, testing how different model design choices affect downstream interaction patterns.
 
-## Current Work
-Leading an LLM-as-a-Judge classification pipeline using OpenAI models for automated Chat-Bloom taxonomy labeling, benchmarking against the trained BERT baseline.
+## LLM-as-a-Judge Pipeline
+I built an LLM-as-a-Judge classification pipeline using OpenAI models for automated Chat-Bloom taxonomy labeling, benchmarking against the trained BERT baseline.
 
 ### Manuscripts
-* **Chao, L., et al.** "Chat-Bloom: A Taxonomy for Classifying Cognitive Offloading in Student-AI Interactions in CS Education." *(Revision in progress; target resubmission May 2026)*
+* **Chao, L., et al.** "Chat-Bloom: A Taxonomy for Classifying Cognitive Offloading in Student-AI Interactions in CS Education." *(Accepted, SIGCSE Virtual 2026)*

@@ -16,10 +16,10 @@ Reading, gathering information, and citing multi-column academic papers on stand
 ## The Challenge: Layout Difficulties
 The main challenge was converting absolute PDF coordinates/layout into a linear text stream that still preserves reading order (e.g., reading the bottom of left column before top of right column).
 
-I built a custom adaptive layout engine using PyMuPDF. It extracts text block coordinates and statistically clusters them to detect column boundaries and headers. The system then serializes the blocks into a coherent stream which is displayed in the terminal
+I built a custom adaptive layout engine using PyMuPDF. It extracts text block coordinates and statistically clusters them to detect column boundaries and headers. The system then serializes the blocks into a coherent stream which is displayed in the terminal.
 
 ## The Workflow: Keyboard Shortcuts
-I wanted the workflow with PDFim to fit into a terminal developer, i.e. using the keyboard as much as possible. I implemented standard Vim navigation (`j/k`, `G`, `/` search) using the curses ibrary. I also added a visual selection mode for copying citations directly to the system clipboard.
+I wanted PDFim to fit a terminal-centric workflow — keyboard-driven as much as possible. I implemented standard Vim navigation (`j/k`, `G`, `/` search) using the curses library, plus a visual selection mode for copying citations directly to the system clipboard.
 
 ## Outcome
-By not requiring GUI rendering , PDFim uses 30% less memory than standard PDF viewers. The shortcuts with zero-latency scrolling enables a very efficient workflow for researchers.
+By not requiring GUI rendering, PDFim uses 30% less memory than standard PDF viewers, and the keyboard shortcuts with zero-latency scrolling make for an efficient reading workflow.

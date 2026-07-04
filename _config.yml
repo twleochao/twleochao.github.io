@@ -18,9 +18,8 @@ masthead_title: " "
 logo: "/assets/images/crane-logo.png"
 email: leo.yt.chao@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal portfolio for Leo Chao. 
-twitter_username: username
-github_username: username
+  Leo (Yi-Ting) Chao — research portfolio in mechanistic interpretability and LLM evaluation.
+github_username: twleochao
 minimal_mistakes_skin: dark
 
 # Build settings
@@ -59,7 +58,7 @@ plugins:
 author:
   name   : "Leo (Yi-Ting) Chao"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Incoming MSCS @ UCSD<br>Researcher @ ARCALA Lab<br>AI Systems Intern @ Acer"
+  bio    : "Incoming MSCS @ UC San Diego<br>Mech Interp @ McAuley Lab, UCSD<br>AI Intern @ Mooov"
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"

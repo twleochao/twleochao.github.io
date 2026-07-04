@@ -6,7 +6,7 @@ classes: wide
 ---
 **Role:** Sole Developer | **Stack:** Python, PySide6, XGBoost, Selenium | **Time:** July 2025 - Present 
 
-Poker is a game of incomplete information, typically solved by "Game Theory Optimal" (GTO) solvers. However, for solvers take a while to generate outcome for specific scenarios, useful for post-game practice but not helpful for live game advice. I built **HeadsUp** to solve this problem: *Can we build an assistant that leverages GTO solver's intelligence while also updating information in real-time?* 
+Poker is a game of incomplete information, typically solved by "Game Theory Optimal" (GTO) solvers. Those solvers take a while to generate a decision for a specific scenario — useful for post-game study, but too slow for live play. I built **HeadsUp** to answer: *can an assistant leverage a GTO solver's intelligence while updating in real time?*
 
 <figure>
   <img src="/assets/images/headsup_demo.gif" alt="HeadsUp Poker Overlay Demo">
@@ -23,7 +23,7 @@ Figure 1: The HeadsUp display acts as a transparent overlay directly on the game
 ## The Constraint: Low Latency Budget
 Poker is a fast-paced game, for the advice to come in-time and feel instant, I gave myself a goal to have the interface respond in ~100ms. This gave me a strict budget for the entire pipeline: reading the cards, calculating the best move, rendering the advice. 
 
-I initially tried using OCR to read the screen, but it was CPU-intensive and prone to imaging errors. I switched to a Selenium-based polling architecture that hooks directly into the game client. To ensure the UI doesn't freeze during background workl, I designed the app using PySide6 (Qt) with a multi-threaded worker pattern, keeping the rendering thread locked at 60fps.
+I initially tried using OCR to read the screen, but it was CPU-intensive and prone to imaging errors. I switched to a Selenium-based polling architecture that hooks directly into the game client. To keep the UI from freezing during background work, I built the app on PySide6 (Qt) with a multi-threaded worker pattern, keeping the rendering thread locked at 60fps.
 
 ## The Model: GTO-Lite from Distillation
 Since we can't run a heavy solver live, I used a process called Model Distillation. I wrote scripts using `eval7` to simulate **50,000+ poker hands**, calculating the GTO play for each.
