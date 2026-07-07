@@ -51,9 +51,9 @@ classes: wide
 
 I'm Leo, a Computer Science (Intelligent Systems) graduate of **University of California, Irvine**, incoming MSCS at **UC San Diego** (Fall 2026).
 
-I mostly work on **mechanistic interpretability**. At the **McAuley Lab** (UCSD) I use sparse autoencoders and TransformerLens to study the internals of music LLMs. My other main area is **LLM evaluation**. At **ARCALA Lab** (UCI) I co-developed Chat-Bloom and trained transformer classifiers to label student-AI interactions automatically. I also build LLM systems. I recently interned at Mooov and wrote a product-existence classifier with its own eval harness.
+My work sits at the intersection of **interpretability and evaluation**: understanding what's happening inside models and building the measurement tools to verify it. At the **McAuley Lab** (UCSD) I use sparse autoencoders and TransformerLens to study the internals of music LLMs with Xin Xu. At **ARCALA Lab** (UCI) I co-developed Chat-Bloom and trained transformer classifiers to automatically label student-AI interactions, validated against human-coder agreement. I also build LLM systems: I recently interned at **Mooov**, where I wrote a product-existence classifier with its own eval harness.
 
-At UCSD I plan to focus on mechanistic interpretability, LLM evaluation, and ML systems.
+At UCSD I plan to focus on mechanistic interpretability, LLM evaluation methodology, and ML systems.
 
 ## Beyond the Lab
 
