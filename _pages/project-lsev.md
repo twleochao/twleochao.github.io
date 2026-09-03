@@ -14,7 +14,7 @@ The pipeline already had a verification pass: one model flagged suspect mappings
 
 We hand-labeled 50 flagged cases before enabling it. Agreement came out at roughly 13%.
 
-A controlled ablation isolated the cause. Running the same cases with a judge from a different model family dropped the estimate from 92% to 25%. It turns out the original certification's agreement between models were affected by whether they shared a training lineage.
+A controlled ablation isolated the cause. Running the same cases with a judge from a different model family dropped the estimate from 92% to 25%. It turns out the original certification's agreement between models was affected by whether they shared a training lineage.
 
 ## What the Errors Were
 
