@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Leo (Yi-Ting) Chao"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Incoming MSCS @ UC San Diego<br>Mech Interp @ McAuley Lab, UCSD<br>AI Intern @ Mooov"
+  bio    : "Incoming MSCS @ UC San Diego<br>Mech Interp @ McAuley Lab, UCSD"
   links:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"

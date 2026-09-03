@@ -16,7 +16,7 @@ feature_row:
   - icon: "fas fa-brain"
     alt: "McAuley Lab"
     title: "McAuley Lab, UCSD"
-    excerpt: "Mechanistic interpretability of music LLMs using sparse autoencoders and TransformerLens. Targeting the NeurIPS AI4Music Workshop 2026."
+    excerpt: "Mechanistic interpretability of music LLMs using sparse autoencoders and TransformerLens. Targeting ICLR 2027."
 
   - icon: "fas fa-sitemap"
     alt: "ARCALA Lab"
@@ -26,10 +26,13 @@ feature_row:
     btn_label: "View Research"
     btn_class: "btn--primary"
 
-  - icon: "fas fa-magnifying-glass-chart"
-    alt: "Mooov"
-    title: "Mooov: Product-Existence Classifier"
-    excerpt: "A 3-layer product-existence classifier for a consumer discovery platform (regex gibberish gate, web-search grounding, LLM judge), with a labeled eval harness."
+  - icon: "fas fa-filter"
+    alt: "LLM Quality Filtering"
+    title: "LSEV USA Corp"
+    excerpt: "Cross-family judging and source re-grounding for LLM-extracted product claims, reaching 96% agreement with human labels."
+    url: "/projects/lsev/"
+    btn_label: "View Project"
+    btn_class: "btn--primary"
 
   - icon: "fas fa-network-wired"
     alt: "MAS SDLC"
