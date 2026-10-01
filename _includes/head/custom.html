@@ -1,0 +1,16 @@
+<!-- MathJax: renders LaTeX math in pages. Minimal Mistakes includes this file
+     from its head.html. kramdown converts $$...$$ (display) into
+     <script type="math/tex"> tags, which MathJax consumes natively; the tex2jax
+     config below also enables inline $...$ math, which kramdown leaves as literal
+     text. processEscapes lets \$ be a literal dollar sign if ever needed. -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    processEscapes: true
+  }
+});
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>

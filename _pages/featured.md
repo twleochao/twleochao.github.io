@@ -5,6 +5,14 @@ title: "Research & Projects"
 author_profile: true
 classes: wide
 feature_row:
+  - icon: "fas fa-microscope"
+    alt: "Reward Model Interpretability"
+    title: "What Patching Measures in Reward Models"
+    excerpt: "Reproducing and re-diagnosing the attribution-patching disagreement in reward models: early-layer patch effects measure fragility, not information content."
+    url: "/projects/rm-attribution-patching/"
+    btn_label: "View Project"
+    btn_class: "btn--primary"
+
   - icon: "fas fa-flask"
     alt: "LLM Activation Steering"
     title: "LLM Activation Steering"
@@ -16,7 +24,7 @@ feature_row:
   - icon: "fas fa-brain"
     alt: "McAuley Lab"
     title: "McAuley Lab, UCSD"
-    excerpt: "Mechanistic interpretability of music LLMs using sparse autoencoders and TransformerLens. Targeting ICLR 2027."
+    excerpt: "Mechanistic interpretability of music LLMs using sparse autoencoders and TransformerLens."
 
   - icon: "fas fa-sitemap"
     alt: "ARCALA Lab"
