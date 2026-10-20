@@ -7,8 +7,8 @@ classes: wide
 feature_row:
   - icon: "fas fa-microscope"
     alt: "Reward Model Interpretability"
-    title: "What Patching Measures in Reward Models"
-    excerpt: "Reproducing and re-diagnosing the attribution-patching disagreement in reward models: early-layer patch effects measure fragility, not information content."
+    title: "Reward Model Activation Patching"
+    excerpt: "Reproducing and re-diagnosing attribution-patching disagreement in reward models."
     url: "/projects/rm-attribution-patching/"
     btn_label: "View Project"
     btn_class: "btn--primary"
@@ -88,7 +88,7 @@ feature_row:
 </style>
 
 <p style="font-size: 1.0em; color: #bbb; margin-top: 30px; margin-bottom: 40px;">
-  Research and engineering focused on mechanistic interpretability, LLM evaluation, and ML systems.
+  Various personal, research, and school proejcts throughout the years. 
 </p>
 
 {% include feature_row.html%}
